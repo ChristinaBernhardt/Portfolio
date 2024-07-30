@@ -1,0 +1,55 @@
+
+
+.rotation {
+    transform: rotate(270deg);
+    font-size: 64px;
+    font-weight: 400;
+    border: 1px solid yellow;
+    position: relative;
+    top: 100px;
+    left: 10px;
+}
+
+.name {
+    font-size: 104px;
+    font-weight: 700;
+}
+
+.frontenddeveloper {
+    font-size: 64px;
+    font-weight: 400;
+    color: #9747FF;
+}
+
+.firstsection {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 80vh;
+    border: 1px solid white;
+    background-color: #141d2f;
+    padding-top: 100px;
+}
+
+.iam {
+    display: flex;
+    border: 1px solid white;
+    
+}
+
+.lets-talk-button {
+    width: 165px;
+    height: 58px;
+    display: flex;
+    justify-content: center;
+    padding: 15px 30px 15px 30px;
+    margin-top: 150px;
+    gap: 10px;
+    border-radius: 10px 10px 10px 10px;
+    opacity: 0px;
+    background: #70E61C;
+    color: whitesmoke;
+    border-style: none;
+    font-size: 24px;
+}

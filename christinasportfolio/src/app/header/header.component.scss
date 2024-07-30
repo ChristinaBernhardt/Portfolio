@@ -3,16 +3,18 @@ body {
     gap: 0px;
     display: flex;
     justify-content: space-between;
-    }
+ }
 
-.top-menu{
+.top-menu {
     display: flex;
-    height: 32px;
+
     gap: 29px;
     justify-content: space-between;
-    font-size: smaller;
+    font-size: 23px;
+    font-weight: 400;
 }
 
-.name{
-font-size: x-large;
+.name {
+    font-size: 32px;
+    font-weight: 800;
 }

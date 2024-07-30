@@ -1,0 +1,17 @@
+section{
+    margin-top: 30px;
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    color: #fff;
+}
+
+.leftsection{
+        width: 50%;
+        margin-left: 50px;
+        padding: 40px;
+        z-index: -1;
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+    }
