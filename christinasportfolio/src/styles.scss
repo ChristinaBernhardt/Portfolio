@@ -1,1 +1,31 @@
 /* You can add global styles to this file, and also import other style files */
+body {
+    margin: 0px;
+    display: flex;
+    flex-direction: center;
+    justify-content: center;
+    background-color: #141d2f;
+    color: whitesmoke;
+}
+
+header {
+    max-width: 1440px;
+    width: 100vw;
+    border: 1px solid green;
+
+}
+
+main {
+
+    max-width: 1440px;
+    border: 1px solid blue;
+
+}
+
+
+footer {
+
+    max-width: 1440px;
+    border: 1px solid red;
+
+}
