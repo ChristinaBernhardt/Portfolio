@@ -1,21 +1,56 @@
 /* You can add global styles to this file, and also import other style files */
+@import "./fonts/fonts.scss";
+
+header {
+    height: 92px;
+    position: fixed;
+    display: flex;
+    justify-content: space-between;
+    padding-left: 30px;
+    padding-right: 30px;
+    width: 1440px;
+}
+
 body {
     margin: 0px;
     display: flex;
+    justify-content: center;
+    align-items: center;
     color: black;
     background-color: #FFFCF3;
-    font-family: sans-serif;
-     }
+    font-family: 'Overpass';
+    font-size: 22px;
+    font-weight: 400;
+    height: 100%;
+    width: 99vw;
+    border: 1px solid red;
+}
+
+footer {
+    color: #FFFCF3;
+    background-color: black;
+}
 
 .green-font {
     color: 00BC8F;
 
 }
 
-h1{
+h1 {
     font-size: 128px;
+    font-family: 'Syne';
+    font-weight: 800;
+    letter-spacing: -2.5%;
+
 }
 
-h2{
+h2 {
     font-size: 78px;
+    font-family: 'Syne';
+    letter-spacing: 1%;
+    font-weight: 800;
+}
+
+.centered{
+    text-align: center;
 }
