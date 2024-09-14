@@ -1,12 +1,12 @@
 import { Component } from '@angular/core';
 import { RouterOutlet } from '@angular/router';
-import { HeaderComponent } from "./header/header.component";
-import { FooterComponent } from "./footer/footer.component";
-import { IamComponent } from './iam/iam.component';
-import { AboutmeComponent } from './aboutme/aboutme.component';
-import { SkillsComponent } from './skills/skills.component';
-import { PortfolioComponent } from './portfolio/portfolio.component';
-import { ContactComponent } from './contact/contact.component';
+import { HeaderComponent } from "./shared/header/header.component";
+import { FooterComponent } from "./shared/footer/footer.component";
+import { IamComponent } from './main-content/iam/iam.component';
+import { AboutmeComponent } from './main-content/aboutme/aboutme.component';
+import { SkillsComponent } from './main-content/skills/skills.component';
+import { PortfolioComponent } from './main-content/portfolio/portfolio.component';
+import { ContactComponent } from './main-content/contact/contact.component';
 
 @Component({
   selector: 'app-root',

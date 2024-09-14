@@ -1,6 +1,6 @@
 /* You can add global styles to this file, and also import other style files */
-@import "./fonts/fonts.scss";
-@import "./variables/variables.scss";
+@import "./style/fonts.scss";
+@import "./style/variables.scss";
 
 header {
     height: 92px;
@@ -50,6 +50,11 @@ h2 {
     font-family: $font-family-syne;
     letter-spacing: 1%;
     font-weight: 800;
+}
+
+h4 {
+font-family: $font-family-overpass;
+
 }
 
 .centered{
