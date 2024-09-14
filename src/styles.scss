@@ -1,5 +1,6 @@
 /* You can add global styles to this file, and also import other style files */
 @import "./fonts/fonts.scss";
+@import "./variables/variables.scss";
 
 header {
     height: 92px;
@@ -18,7 +19,7 @@ body {
     align-items: center;
     color: black;
     background-color: #FFFCF3;
-    font-family: 'Overpass';
+    font-family: $font-family-overpass;
     font-size: 22px;
     font-weight: 400;
     height: 100%;
@@ -38,7 +39,7 @@ footer {
 
 h1 {
     font-size: 128px;
-    font-family: 'Syne';
+    font-family: $font-family-syne;
     font-weight: 800;
     letter-spacing: -2.5%;
 
@@ -46,7 +47,7 @@ h1 {
 
 h2 {
     font-size: 78px;
-    font-family: 'Syne';
+    font-family: $font-family-syne;
     letter-spacing: 1%;
     font-weight: 800;
 }
