@@ -1,0 +1,75 @@
+
+/* Zentrierung der Überschrift */
+h2 {
+    text-align: center;
+    margin-bottom: 0px; /* Kein Abstand unten, um den Border näher an die Überschrift zu bringen */
+    position: relative;
+    z-index: 1; /* Überschrift wird über der Box angezeigt */
+    background-color: white; /* Hintergrund, damit die Überschrift nicht vom Rand überlagert wird */
+    display: inline-block; /* Anpassung der Breite der Überschrift */
+    padding: 0 10px; /* Etwas Platz um die Überschrift herum */
+}
+
+/* Große Box (1240 x 633) */
+.large-box {
+    width: 1240px;
+    height: 433px;
+    margin: -40px auto 20px auto; /* Negativer Margin oben, um die Box näher an die Überschrift zu bringen */
+    
+    border: 5px solid black;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 4em 0;
+    position: relative;
+    z-index: 0; /* Box wird unter der Überschrift angezeigt */
+}
+
+/* Skills-Container (kleinere Box 1012 x 271) */
+.skills-container {
+    width: 1012px;
+    height: 271px;
+    margin: 20px auto; /* Zentrierte Box */
+
+    padding: 10px;
+    overflow: hidden; /* Um sicherzustellen, dass nichts überläuft */
+}
+
+/* Skills Boxen */
+.skills {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 20px;
+}
+
+.skill-box {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: calc(20% - 20px); /* 5 Boxen in einer Reihe */
+    padding: 10px;
+}
+
+.skills-icons {
+    width: 60px;
+    height: 60px;
+    margin-bottom: 10px;
+}
+
+.skills p {
+    margin: 0;
+    font-size: 16px;
+    font-weight: bold;
+    text-align: center;
+}
+
+/* Zentrierter Satz unter den Boxen */
+.contact-message {
+    text-align: center;
+    font-size: 22px;
+    margin-top: 20px;
+    font-family: 'Overpass', sans-serif;
+    font-weight: 400;
+
+}
