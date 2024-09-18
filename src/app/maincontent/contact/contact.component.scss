@@ -2,3 +2,88 @@
     color:  #FFFCF3;
     background-color: black;
 }
+
+.contact-container {
+    text-align: center;
+    padding: 2rem;
+    background-color: #000;
+    color: #fff;
+
+  
+    h1 {
+      font-size: 3rem;
+      font-weight: bold;
+    }
+  
+    h2 {
+      font-size: 1.5rem;
+      margin-bottom: 1rem;
+      color: #00d1b2;
+    }
+  
+    p {
+      margin-bottom: 2rem;
+      font-size: 1.2rem;
+    }
+  
+    .form-group {
+      margin-bottom: 1.5rem;
+  
+      .form-control {
+        width: 100%;
+        padding: 0.75rem;
+        font-size: 1rem;
+        border: none;
+        border-bottom: 2px solid #fff;
+        background-color: transparent;
+        color: #fff;
+        outline: none;
+  
+        &::placeholder {
+          color: #aaa;
+        }
+      }
+  
+      textarea {
+        height: 100px;
+        resize: none;
+      }
+    }
+  
+    .submit-btn {
+      background-color: #00d1b2;
+      color: #000;
+      padding: 0.75rem 2rem;
+      border: none;
+      cursor: pointer;
+      font-size: 1.1rem;
+  
+      &:disabled {
+        background-color: #444;
+        cursor: not-allowed;
+      }
+    }
+  
+    a {
+      color: #00d1b2;
+    }
+  
+    input[type='checkbox'] {
+      margin-right: 0.5rem;
+    }
+  }
+
+  .slanted-section {
+    background-color: #000; // Setze die Hintergrundfarbe (z. B. Schwarz)
+    color: white;
+    padding: 50px;
+    position: relative;
+    clip-path: polygon(0 0, 100% 20%, 100% 100%, 0 100%); // Hier wird der schräge Effekt erzeugt
+    text-align: center;
+  
+   
+    p {
+      font-size: 24px;
+    }
+  }
+  
