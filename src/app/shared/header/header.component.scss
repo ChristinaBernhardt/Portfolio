@@ -1,12 +1,42 @@
-img{
-    width: 50px;
+header {
+  height: 92px;
+  position: fixed;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-left: 30px;
+  padding-right: 30px;
+  width: 100vw;
+  top: 0;
+  z-index: 1000; /* ensures the header stays on top */
+  background-color: #FFFCF3;
 }
 
-.header-right{
-    display: flex;
+.header-left .logo {
+  width: 100px;
+  height: 100px;
 }
 
-.logo{
-    width: 100px;
-    height: 100px;;
+.header-right {
+  display: flex;
+  align-items: center;
+}
+
+.header-right .flag {
+  width: 50px;
+  margin-right: 20px; /* Space between the flag and the burger menu */
+}
+
+.burger-menu {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 30px;
+  height: 20px;
+  cursor: pointer;
+}
+
+.burger-menu .line {
+  height: 3px;
+  background-color: #000; /* Color of the burger menu lines */
 }

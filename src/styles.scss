@@ -2,62 +2,53 @@
 @import "./style/fonts.scss";
 @import "./style/variables.scss";
 
-header {
-    height: 92px;
-    position: fixed;
-    display: flex;
-    justify-content: space-between;
-    padding-left: 30px;
-    padding-right: 30px;
-    width: 1440px;
-}
 
 body {
-    margin: 0px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    color: black;
-    background-color: #FFFCF3;
-    font-family: $font-family-overpass;
-    font-size: 22px;
-    font-weight: 400;
-    height: 100%;
-    width: 99vw;
-    border: 1px solid red;
+  /* Adjusted to match the header height */
+  margin: 92px 0 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: black;
+  background-color: #FFFCF3;
+  font-family: $font-family-overpass;
+  font-size: 22px;
+  font-weight: 400;
+  height: 100%;
+  width: 100vw;
+  border: 1px solid red;
+  overflow-y: auto; /* Enables vertical scrolling */
+  overflow-x: hidden; /* Disables horizontal scrolling */
+  height: calc(100vh - 92px); /* Adjust height based on header height */
 }
 
 footer {
-    color: #FFFCF3;
-    background-color: black;
+  color: #FFFCF3;
+  background-color: black;
 }
 
 .green-font {
-    color: 00BC8F;
-
+  color: 00BC8F;
 }
 
 h1 {
-    font-size: 128px;
-    font-family: $font-family-syne;
-    font-weight: 800;
-    letter-spacing: -2.5%;
-
+  font-size: 128px;
+  font-family: $font-family-syne;
+  font-weight: 800;
+  letter-spacing: -2.5%;
 }
 
 h2 {
-    font-size: 78px;
-    font-family: $font-family-syne;
-    letter-spacing: 1%;
-    font-weight: 800;
+  font-size: 78px;
+  font-family: $font-family-syne;
+  letter-spacing: 1%;
+  font-weight: 800;
 }
 
 h4 {
-font-family: $font-family-overpass;
-
+  font-family: $font-family-overpass;
 }
 
-.centered{
-    text-align: center;
+.centered {
+  text-align: center;
 }
-
