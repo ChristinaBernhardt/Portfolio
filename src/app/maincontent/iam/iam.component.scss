@@ -1,8 +1,7 @@
-@import "./style/fonts.scss";
-@import "./style/variables.scss";
+@import "../../../style/fonts.scss";
+@import "../../../style/variables.scss";
 
 .iam {
-
   padding: 2rem;
   text-align: center;
 
@@ -31,5 +30,24 @@
   p {
     font-size: 1.2rem;
     font-family: $font-family-overpass;
+  }
+}
+
+.name-line {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  .line {
+    width: 500px; // Länge des Strichs
+    height: 4px; // Dicke des Strichs
+    background-color: black;
+    margin-right: 10px; // Abstand zwischen Strich und Text
+  }
+
+  .name {
+    color: #00BC8F;
+    font-weight: bold;
+    font-size: 56px; // Textgröße
   }
 }

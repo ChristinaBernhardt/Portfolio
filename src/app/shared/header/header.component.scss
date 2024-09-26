@@ -1,3 +1,4 @@
+
 header {
   height: 92px;
   position: fixed;
@@ -6,37 +7,41 @@ header {
   align-items: center;
   padding-left: 30px;
   padding-right: 30px;
-  width: 100vw;
+  width: 90vw;
   top: 0;
   z-index: 1000; /* ensures the header stays on top */
   background-color: #FFFCF3;
 }
 
-.header-left .logo {
-  width: 100px;
-  height: 100px;
+
+.header-left {
+  font-size: 48px;
+  font-weight: bold;
+  cursor: pointer;
 }
 
 .header-right {
   display: flex;
   align-items: center;
-}
-
-.header-right .flag {
-  width: 50px;
-  margin-right: 20px; /* Space between the flag and the burger menu */
-}
-
-.burger-menu {
-  display: flex;
-  flex-direction: column;
   justify-content: space-between;
-  width: 30px;
-  height: 20px;
-  cursor: pointer;
-}
 
-.burger-menu .line {
-  height: 3px;
-  background-color: #000; /* Color of the burger menu lines */
+  .burger-menu {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 40px;
+    height: 30px;
+    cursor: pointer;
+
+    .line {
+      height: 4px;
+      background-color: #000;
+      margin-left: 5px; /* Adjust the value to indent the lines */
+    }
+  }
+
+  .flag {
+    margin-left: 10px;
+    width: 20px;
+  }
 }

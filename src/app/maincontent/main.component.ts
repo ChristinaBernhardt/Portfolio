@@ -7,11 +7,11 @@ import { ContactComponent } from './contact/contact.component';
 
 
 @Component({
-  selector: 'app-main-content',
+  selector: 'app-main',
   standalone: true,
   imports: [IamComponent, AboutmeComponent, SkillsComponent, PortfolioComponent, ContactComponent],
-  templateUrl: './main.component.html'
-  // styleUrl: './privacy.component.scss'
+  templateUrl: './main.component.html',
+  styleUrls: ['./main.component.scss'] // Fügen Sie diese Zeile hinzu
 })
 export class MainComponent {
 
