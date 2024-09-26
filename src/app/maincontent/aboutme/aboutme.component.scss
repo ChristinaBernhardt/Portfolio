@@ -3,9 +3,11 @@
 
 .about-me {
 display: flex;
+  flex-direction: row;
   width: 80vw;
-  height: 700px;
-  justify-content: space-between;
+  height: 500px;
+  justify-content: space-evenly;
+  border: 1px solid green;
 
 }
 
@@ -19,7 +21,7 @@ display: flex;
 
 .about-me-text {
   width: 50%;
-  font-size: 46px;
+  font-size: 34px;
   height: 100%;
   margin-left: 20px;
     border: 1px solid blue;
