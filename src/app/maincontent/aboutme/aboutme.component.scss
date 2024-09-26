@@ -1,2 +1,26 @@
 @import "../../../style/fonts.scss";
 @import "../../../style/variables.scss";
+
+.about-me {
+display: flex;
+  width: 80vw;
+  height: 700px;
+  justify-content: space-between;
+
+}
+
+.about-me-img {
+  width: 50%;
+  height: 100%;
+  margin-right: 20px;
+  margin-left: 100px;
+  border: 1px solid red;
+}
+
+.about-me-text {
+  width: 50%;
+  font-size: 46px;
+  height: 100%;
+  margin-left: 20px;
+    border: 1px solid blue;
+}
