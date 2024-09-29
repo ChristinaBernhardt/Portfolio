@@ -2,11 +2,11 @@
 @import "../../../style/variables.scss";
 
 .about-me {
-display: flex;
+  display: flex;
   flex-direction: row;
   width: 80vw;
   height: 500px;
-  justify-content: space-evenly;
+  justify-content: space-between;
   border: 1px solid green;
 
 }
@@ -23,6 +23,39 @@ display: flex;
   width: 50%;
   font-size: 34px;
   height: 100%;
-  margin-left: 20px;
-    border: 1px solid blue;
+  border: 1px solid blue;
 }
+
+/* Container to center the button */
+.button-container {
+  display: flex;
+  justify-content: center; /* Center horizontally */
+  align-items: center; /* Center vertically */
+
+}
+
+/* Button styling */
+.styled-button {
+  height: 68px;
+  width: 213px;
+  background-color: #FFFCF3; /* Light background color */
+  color: black; /* Text color */
+  padding: 10px 20px; /* Padding for spacing inside the button */
+  font-size: 16px; /* Font size */
+  border: 4px solid black; /* Black border */
+  border-radius: 0; /* Sharp corners */
+  cursor: pointer; /* Pointer cursor on hover */
+  font-family: 'Overpass', sans-serif;
+  font-weight: 400;
+  font-size: 23px;
+  display: inline-block;
+  text-align: center;
+  transition: all 0.3s ease; /* Smooth transition for hover effects */
+}
+
+/* Button hover effect */
+.styled-button:hover {
+  background-color: black; /* Invert background on hover */
+  color: #FFFCF3; /* Invert text color on hover */
+}
+
