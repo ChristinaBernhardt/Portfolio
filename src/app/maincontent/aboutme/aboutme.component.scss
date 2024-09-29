@@ -4,18 +4,20 @@
 .about-me {
   display: flex;
   flex-direction: row;
-  width: 80vw;
+
+  width: 100vw;
   height: 500px;
-  justify-content: space-between;
+  justify-content: center;
   border: 1px solid green;
+  column-gap: 100px;
+  
 
 }
 
 .about-me-img {
   width: 50%;
   height: 100%;
-  margin-right: 20px;
-  margin-left: 100px;
+
   border: 1px solid red;
 }
 
@@ -57,5 +59,9 @@
 .styled-button:hover {
   background-color: black; /* Invert background on hover */
   color: #FFFCF3; /* Invert text color on hover */
+}
+
+h2{
+  text-align: start;
 }
 
