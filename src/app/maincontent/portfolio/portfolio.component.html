@@ -1,14 +1,15 @@
 <div class="section-container">
 <h2>Portfolio</h2>
 <div class="section-container">
-    <h2 class="main-heading"><div>Explore a selecton of my work here - interact with projects to see my skills in action.</div>
-    </h2>
+    <h4 class="main-heading"><div>Explore a selecton of my work here - interact with projects to see my skills in action.</div>
+    </h4>
     <div *ngFor="let section of sectionsData; let i = index" class="section-item" [ngClass]="{'reverse': i % 2 !== 0}">
       <div class="section-image" [style.width]="section.imgWidth">
         <img [src]="section.imgSrc" [alt]="'Section Image ' + (i + 1)" />
       </div>
       <div class="section-text">
-        <p>{{ section.text }}</p>
+        <div class="section-text" [innerHTML]="section.text"></div> <!-- Nutze innerHTML -->
+
       </div>
     </div>
   </div>

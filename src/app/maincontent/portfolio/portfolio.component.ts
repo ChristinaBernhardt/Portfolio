@@ -13,16 +13,57 @@ export class PortfolioComponent implements OnInit {
   sectionsData = [
     {
       imgSrc: '/assets/startscreen_1.png',
-      text: 'This is the text for the first section. The image is on the right.',
-      imgWidth: '500px',
+      text: `
+        <h3>2 / 3</h3>
+        <h4>Mermaid</h4>
+        <div class="tags">
+          <span>HTML</span> | 
+          <span>CSS</span> | 
+          <span>JavaScript / OOP</span>
+        </div>
+        <p>A swim-and-shoot game based on an object-oriented approach. Help the mermaid to find pearls and stars to fight against a variety of fish and collect the golden key to open the treasure chest in the end.</p>
+        <div class="buttons">
+          <button>Try it out</button>
+          <button>Github</button>
+        </div>
+      `,
+      imgWidth: '400px',
     },
     {
       imgSrc: 'https://via.placeholder.com/400',
-      text: 'This is the text for the second section. The image is on the left.',
+      text: `
+        <h4>1 / 3</h4>
+       <h4>Mermaid</h4>
+        <div class="tags">
+          <span>Angular</span> | 
+          <span>TypeScript</span> | 
+          <span>NodeJS</span>
+        </div>
+        <p>Project description goes here. Replace this text with a description of your project or work.</p>
+        <div class="buttons">
+          <button>Try it out</button>
+          <button>Github</button>
+        </div>
+      `,
+      imgWidth: '300px',
     },
     {
       imgSrc: 'https://via.placeholder.com/400',
-      text: 'This is the text for the third section. The image is on the right.',
+      text: `
+        <h3>3 / 3</h3>
+      <h4>Mermaid</h4>
+        <div class="tags">
+          <span>React</span> | 
+          <span>Redux</span> | 
+          <span>Firebase</span>
+        </div>
+        <p>Another project description. Replace this text with your custom content.</p>
+        <div class="buttons">
+          <button>Try it out</button>
+          <button>Github</button>
+        </div>
+      `,
+      imgWidth: '400px',
     },
   ];
 
