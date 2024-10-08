@@ -5,7 +5,7 @@ h2 {
     margin-bottom: 0px; /* Kein Abstand unten, um den Border näher an die Überschrift zu bringen */
     position: relative;
     z-index: 1; /* Überschrift wird über der Box angezeigt */
-    background-color: white; /* Hintergrund, damit die Überschrift nicht vom Rand überlagert wird */
+    background-color: #FFFCF3; /* Hintergrund, damit die Überschrift nicht vom Rand überlagert wird */
     display: inline-block; /* Anpassung der Breite der Überschrift */
     padding: 0 10px; /* Etwas Platz um die Überschrift herum */
 }
@@ -15,7 +15,7 @@ h2 {
     width: 1240px;
     height: 433px;
     margin: -40px auto 20px auto; /* Negativer Margin oben, um die Box näher an die Überschrift zu bringen */
-    
+
     border: 5px solid black;
     display: flex;
     flex-direction: column;

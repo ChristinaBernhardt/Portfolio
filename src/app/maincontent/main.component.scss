@@ -1,8 +1,11 @@
 /* src/app/maincontent/main.component.scss */
 .main {
-  background-color: #f0f0f0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
   color: #333;
-  padding: 20px;
+  max-width: 100%;
+  border: 1px solid greenyellow;
 }
 
 
