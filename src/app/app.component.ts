@@ -6,14 +6,14 @@ import { FooterComponent } from './shared/footer/footer.component';
 @Component({
   selector: 'app-root',
   standalone: true,  // AppComponent bleibt standalone
-  imports: [
-    RouterOutlet, 
-    HeaderComponent, 
-    FooterComponent,
-    
-  ],
   templateUrl: './app.component.html',
-  styleUrls: ['./app.component.scss']
+  styleUrls: ['./app.component.scss'],
+  imports: [
+    RouterOutlet,
+    HeaderComponent,
+    FooterComponent
+  ],
+
 })
 export class AppComponent {
   title = 'christinasportfolio';

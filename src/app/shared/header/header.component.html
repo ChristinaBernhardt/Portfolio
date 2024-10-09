@@ -1,17 +1,21 @@
 <header>
-  <div onclick="window.scrollTo({ top: 0, behavior: 'smooth' }); window.location.href='/'" class="header-left">
+  <div (click)="scrollToTopAndRedirect()" class="header-left">
     [CB]
   </div>
   <div class="header-right">
-    <div class="burger-menu">
+    <div class="burger-menu" (click)="toggleMenu()">
       <div class="line"></div>
       <div class="line"></div>
       <div class="line"></div>
     </div>
+
+    <div id="burger-menu-content" class="burger-menu-content">
+      <ul style="list-style: none; padding: 20px;">
+        <li><a href="#about-me">About me</a></li>
+        <li><a href="#my-skills">My skills</a></li>
+        <li><a href="#portfolio">Portfolio</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </div>
   </div>
 </header>
-
-
-
-
-
