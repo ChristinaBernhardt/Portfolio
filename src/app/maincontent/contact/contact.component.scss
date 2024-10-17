@@ -3,6 +3,17 @@
     background-color: black;
 }
 
+
+h2 {
+text-align: start;
+  color: white;
+}
+
+h3 {
+  font-size: 1.5rem;
+  margin-bottom: 1rem;
+  color: #00d1b2;
+}
 .contact-container {
     text-align: center;
     padding: 2rem;
@@ -15,11 +26,7 @@
       font-weight: bold;
     }
   
-    h2 {
-      font-size: 1.5rem;
-      margin-bottom: 1rem;
-      color: #00d1b2;
-    }
+ 
   
     p {
       margin-bottom: 2rem;
