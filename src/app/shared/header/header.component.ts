@@ -17,7 +17,7 @@ export class HeaderComponent {
   }
 
   toggleMenu() {
-    const menu = this.windowRef.document.getElementById('burger-menu-content');
+    const menu = document.getElementById('burger-menu-content');
     if (menu) {
       menu.style.display = menu.style.display === 'block' ? 'none' : 'block';
     }
