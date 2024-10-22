@@ -1,19 +1,21 @@
 import { Component } from '@angular/core';
+import {Router, RouterModule} from '@angular/router';
 
 @Component({
   selector: 'app-header',
   standalone: true,
-  imports: [],
+  imports: [RouterModule],
   templateUrl: './header.component.html',
   styleUrls: ['./header.component.scss']
 })
 export class HeaderComponent {
-  // Globale window-Referenz
   private windowRef: Window = window;
+
+  constructor(private router: Router) {}
 
   scrollToTopAndRedirect() {
     this.windowRef.scrollTo({ top: 0, behavior: 'smooth' });
-    this.windowRef.location.href = '/';
+    this.router.navigateByUrl('/');
   }
 
   toggleMenu() {
