@@ -36,9 +36,9 @@ export class PortfolioComponent implements OnInit {
         <h4>2 / 3</h4>
        <h4>Pokedex</h4>
         <div class="tags">
-          <span>Angular</span> |
-          <span>TypeScript</span> |
-          <span>NodeJS</span>
+        <span>HTML</span> |
+          <span>CSS</span> |
+          <span>JavaScript</span>
         </div>
         <p>Project description goes here. Replace this text with a description of your project or work.</p>
         <div class="buttons">
@@ -54,9 +54,9 @@ export class PortfolioComponent implements OnInit {
         <h3>3 / 3</h3>
       <h4>Join</h4>
         <div class="tags">
-          <span>React</span> |
-          <span>Redux</span> |
-          <span>Firebase</span>
+         <span>HTML</span> |
+          <span>CSS</span> |
+          <span>JavaScript</span>
         </div>
         <p>Another project description. Replace this text with your custom content.</p>
         <div class="buttons">
