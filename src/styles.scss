@@ -2,6 +2,21 @@
 @import "./style/fonts.scss";
 @import "./style/variables.scss";
 
+
+.text{
+  font-family: $font-family-overpass;
+  font-size: 22px;
+  font-weight: 400;
+}
+
+.img{
+  padding-right: 10px;
+  display: flex;
+  flex-direction: row;
+
+  align-items: center;
+}
+
 body {
   margin: 92px 0 0;
   display: flex;
@@ -30,6 +45,12 @@ footer {
 
 .green-font {
   color: #00BC8F;
+}
+
+.display-center{
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .link {
