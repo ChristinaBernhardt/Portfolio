@@ -13,6 +13,12 @@ import { ContactComponent } from './contact/contact.component';
   templateUrl: './main.component.html',
   styleUrls: ['./main.component.scss'] // Fügen Sie diese Zeile hinzu
 })
-export class MainComponent {
 
+export class MainComponent {
+  toggleMenu() {
+    const menu = document.getElementById('burger-menu-content');
+    if (menu && menu.style.display === 'block') {
+      menu.style.display = 'none';
+    }
+  }
 }
