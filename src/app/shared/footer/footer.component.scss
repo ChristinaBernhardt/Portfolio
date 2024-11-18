@@ -1,12 +1,16 @@
 
 
 footer{
-  max-width: 100%;
+  width: 96vw;
   display: flex;
   justify-content: space-between;
   padding-left: 2%;
   padding-right: 2%;
   align-items: center;
+  position: fixed;
+  bottom: 0;
+  z-index: 1000;
+
 }
 
 .logo-footer{

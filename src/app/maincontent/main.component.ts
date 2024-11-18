@@ -11,7 +11,7 @@ import { ContactComponent } from './contact/contact.component';
   standalone: true,
   imports: [IamComponent, AboutmeComponent, SkillsComponent, PortfolioComponent, ContactComponent],
   templateUrl: './main.component.html',
-  styleUrls: ['./main.component.scss'] // Fügen Sie diese Zeile hinzu
+  styleUrls: ['./main.component.scss']
 })
 
 export class MainComponent {

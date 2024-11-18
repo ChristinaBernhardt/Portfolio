@@ -13,7 +13,7 @@ import {RouterModule} from "@angular/router";
 export class PortfolioComponent implements OnInit {
   sectionsData = [
     {
-      imgSrc: '/assets/startscreen_1.png',
+      imgSrc: '/assets/startscreen_1-min.png',
       text: `
         <h3>1 / 3</h3>
         <h4>El Pollo Loco</h4>

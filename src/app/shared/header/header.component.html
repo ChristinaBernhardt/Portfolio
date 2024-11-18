@@ -1,21 +1,14 @@
-<header>
-  <div (click)="scrollToTopAndRedirect()" class="header-left">
-    [CB]
+<header class="container">
+  <div class="header-icons">
+    <img src="./assets/logo2.png" (click)="scrollToTopAndRedirect()" class="header-left">
+    <img class="header-img" (click)="toggleMenu()" src="/assets/burger.png">
   </div>
-  <div class="header-right">
-    <div class="burger-menu" (click)="toggleMenu()">
-      <div class="line"></div>
-      <div class="line"></div>
-      <div class="line"></div>
-    </div>
-
-    <div id="burger-menu-content" class="burger-menu-content">
-      <ul>
-        <li><a href="#aboutme">About me</a></li>
-        <li><a href="#skills">My skills</a></li>
-        <li><a href="#portfolio">Portfolio</a></li>
-      </ul>
-      <div class="polygon"></div>
-    </div>
+  <div id="burger-menu-content" class="burger-menu-content">
+    <ul>
+      <li><a href="#aboutme" (click)="toggleMenu()">About me</a></li>
+      <li><a href="#skills" (click)="toggleMenu()">My skills</a></li>
+      <li><a href="#portfolio" (click)="toggleMenu()">Portfolio</a></li>
+    </ul>
+    <div class="polygon"></div>
   </div>
 </header>

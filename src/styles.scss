@@ -2,6 +2,31 @@
 @import "./style/fonts.scss";
 @import "./style/variables.scss";
 
+app-root{
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 100vw;
+}
+
+
+html {
+  scroll-behavior: smooth;
+}
+
+.container {
+
+  margin: 0 auto;
+  padding: 0 20px; /* für ein wenig Seitenabstand */
+}
+
+@media (max-width: 768px) {
+  .container {
+    max-width: 100%;
+    padding: 0 15px;
+  }
+}
 
 .text{
   font-family: $font-family-overpass;
@@ -13,25 +38,29 @@
   padding-right: 10px;
   display: flex;
   flex-direction: row;
-
   align-items: center;
 }
 
 body {
-  margin: 92px 0 0;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
+
+  margin-left: 0;
+  margin-right: 0;
+  margin-bottom: 0;
+  margin-top: 92px;
   color: black;
   background-color: #FFFCF3;
   font-family: $font-family-overpass;
   font-size: 22px;
   font-weight: 400;
-  width: 100vw;
   overflow-y: auto;
   overflow-x: hidden;
   min-height: calc(100vh - 92px); /* Use min-height instead of height */
+}
+
+.hover{
+  &:hover{
+    cursor: pointer;
+  }
 }
 
 html {
@@ -69,7 +98,6 @@ h1 {
 h2 {
   font-size: 78px;
   font-family: $font-family-syne;
-  letter-spacing: 1%;
   font-weight: 800;
 }
 

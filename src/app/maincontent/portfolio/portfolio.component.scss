@@ -1,14 +1,13 @@
-
     h4{
         font-family: 'Overpass';
         font-size: 22px;
         font-weight: 400;
     }
+
     .section-container {
         width: 80%;
         margin: 50px auto;
         text-align: center;
-      border: 1px solid green;
 
         .main-heading {
           font-size: 36px;
@@ -23,12 +22,12 @@
           align-items: center;
 
           &.reverse {
-            flex-direction: row-reverse; // Bild rechts, Text links für gerade Elemente
+            flex-direction: row-reverse;
           }
 
           .section-image,
           .section-text {
-            width: 45%; // Gleiche Breite für beide Elemente
+            width: 45%;
           }
 
           .section-image img {
@@ -40,7 +39,7 @@
             text-align: left;
             font-size: 18px;
             line-height: 1.6;
-            margin: 0 20px; // Platz zwischen Bild und Text
+            margin: 0 20px;
 
             h1 {
               font-size: 28px;
@@ -54,7 +53,6 @@
 
             .tags {
               margin: 10px 0;
-              color: #ff8c00;
 
               span {
                 margin-right: 5px;

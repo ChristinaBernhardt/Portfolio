@@ -5,7 +5,7 @@ import { FooterComponent } from './shared/footer/footer.component';
 
 @Component({
   selector: 'app-root',
-  standalone: true,  // AppComponent bleibt standalone
+  standalone: true,
   templateUrl: './app.component.html',
   styleUrls: ['./app.component.scss'],
   imports: [

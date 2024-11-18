@@ -11,5 +11,10 @@ import {NgOptimizedImage} from "@angular/common";
   styleUrl: './aboutme.component.scss'
 })
 export class AboutmeComponent {
-
+  scrollToContact() {
+    const contactSection = document.getElementById('contact');
+    if (contactSection) {
+      contactSection.scrollIntoView({ behavior: 'smooth' });
+    }
+  }
 }

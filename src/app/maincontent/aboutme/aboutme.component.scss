@@ -4,7 +4,8 @@
 .about-me {
 display: flex;
   flex-direction: column;
-  width: 90vw;
+padding-left: 50px;
+  padding-right: 50px;
   height: 700px;
   justify-content: space-evenly;
 
@@ -30,7 +31,7 @@ display: flex;
   width: 50%;
   font-size: 34px;
   height: 100%;
-  padding-right: 100px
+  padding-right: 10px
 }
 .about-me-left{
   display: flex;
