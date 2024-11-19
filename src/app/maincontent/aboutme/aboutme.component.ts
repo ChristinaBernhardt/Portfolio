@@ -17,4 +17,6 @@ export class AboutmeComponent {
       contactSection.scrollIntoView({ behavior: 'smooth' });
     }
   }
+
+
 }

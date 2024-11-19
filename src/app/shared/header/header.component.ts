@@ -25,4 +25,5 @@ export class HeaderComponent {
       menu.style.display = menu.style.display === 'block' ? 'none' : 'block';
     }
   }
+
 }

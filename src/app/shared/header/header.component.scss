@@ -2,7 +2,7 @@ header {
   width: 100vw;
   height: 92px;
   position: fixed;
-
+  margin-top: 0;
   top: 0;
   z-index: 1000;
   background-color: #FFFCF3;
@@ -11,9 +11,19 @@ header {
   //justify-content: space-between;
 }
 
-.header-left{
+.header-left {
   width: 50px;
   height: 50px;
+}
+
+.space {
+  display: flex;
+  width: 15vw;
+  justify-content: space-between;
+
+  @media (max-width: 1300px) {
+    width: 30vw;
+  }
 }
 
 .header-icons {
@@ -27,6 +37,7 @@ header {
 
 .header-img {
   height: 40px;
+
   &:hover {
     cursor: pointer;
   }

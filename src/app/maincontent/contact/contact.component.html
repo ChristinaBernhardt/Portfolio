@@ -1,62 +1,72 @@
-<section id="contact" >
-<div class="slanted-section">
-  <div class="contact-container" style="width: 50vw; margin: 0 auto;">
-    <h2>Say Hi!</h2>
-    <h3>Want to discuss a new project?</h3>
-    <p>Say hello! Let’s discuss your ideas and make it happen.</p>
+<section id="contact">
+  <div class="slanted-section">
+    <div class="contact-container" style="width: 50vw; margin: 0 auto;">
+      <h2>Say Hi!</h2>
+      <h3>Want to discuss a new project?</h3>
+      <p>Say hello! Let’s discuss your ideas and make it happen.</p>
 
-    <form (ngSubmit)="onSubmit()" #contactForm="ngForm">
-      <div class="form-group">
-        <input
-          type="text"
-          placeholder="Your name"
-          name="name"
-          ngModel
-          required
-          class="form-control"
-        />
-      </div>
+      <form (ngSubmit)="onSubmit()" #contactForm="ngForm">
+        <div class="form-group">
+          <input
+            type="text"
+            placeholder="Your name"
+            name="name"
+            ngModel
+            required
+            class="form-control"
+          />
+        </div>
 
-      <div class="form-group">
-        <input
-          type="email"
-          placeholder="Your email"
-          name="email"
-          ngModel
-          required
-          class="form-control"
-        />
-      </div>
+        <div class="form-group">
+          <input
+            type="email"
+            placeholder="Your email"
+            name="email"
+            ngModel
+            required
+            class="form-control"
+          />
+        </div>
 
-      <div class="form-group">
-        <textarea
-          placeholder="Your message"
-          name="message"
-          ngModel
-          required
-          class="form-control"
-        ></textarea>
-      </div>
+        <div class="form-group">
+          <textarea
+            placeholder="Your message"
+            name="message"
+            ngModel
+            required
+            class="form-control"
+          ></textarea>
+        </div>
 
-      <div class="form-group">
-        <input
-          type="checkbox"
-          name="privacy"
-          ngModel
-          required
-        />
-        <label>
-          I've read the <a href="privacy" class="link">privacy policy</a> and agree to the processing of my data.
-        </label>
-      </div>
+        <div class="form-group">
+          <input
+            type="checkbox"
+            name="privacy"
+            ngModel
+            required
+          />
+          <label>
+            I've read the <a href="privacy" class="link">privacy policy</a> and
+            agree to the processing of my data.
+          </label>
+        </div>
 
-      <button
-        type="submit"
-        class="submit-btn"
-        [disabled]="!contactForm.form.valid"
-      >
-        Send message
-      </button>
-    </form>
-  </div>  </div>
+        <button
+          type="submit"
+          class="submit-btn"
+          [disabled]="!contactForm.form.valid"
+        >
+          Send message
+        </button>
+      </form>
+    </div>
+  </div>
+
+  <!-- Dialog -->
+  <div class="dialog" *ngIf="showDialog">
+    <div class="dialog-content">
+      <p>Danke für Ihre Mail!</p>
+      <p>Wir werden uns so bald wie möglich bei Ihnen melden.</p>
+    </div>
+  </div>
 </section>
