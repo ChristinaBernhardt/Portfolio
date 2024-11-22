@@ -1,27 +1,21 @@
 <section id="aboutme" class="about-me">
-<h2>About me</h2>
-<div class="about-me-2">
-  <div class="about-me-text">
-
-    <p>I am a Frontend Developer of Nuremberg, Germany. I help designers and companies to bring their ideas to real
-      life. Creativity and logigal thinking are skills, that I have developed to connect ideas into quality
-      products.</p>
-
-    <p>If you think I`d be a good match for your projects, contact me!</p>
-    <div class="img">
-      <img class="img" src="/assets/home.svg">
-      <span class="text"> Based in Nuremberg</span></div>
-
+  <h2>{{ 'aboutMe' | translate }}</h2>
+  <div class="about-me-2">
+    <div class="about-me-text">
+      <p>{{ 'introduction' | translate }}</p>
+      <p>{{ 'contactMe' | translate }}</p>
+      <div class="img">
+        <img class="img" src="/assets/home.svg">
+        <span class="text">{{ 'basedIn' | translate }}</span>
+      </div>
       <div class="img">
         <img class="img" src="/assets/remote.svg">
-        <span class="text"> Open to work remote</span></div>
-
-
-        <div class="display-center">
-          <button (click)="scrollToContact()" class="button-container">Let's talk</button>
+        <span class="text">{{ 'remoteWork' | translate }}</span>
       </div>
-
+      <div class="display-center">
+        <button (click)="scrollToContact()" class="button-container">{{ 'letsTalk' | translate }}</button>
+      </div>
+    </div>
+    <img src="/assets/Christina1.png" alt="Christina Bernhardt" class="about-me-img">
   </div>
-
-  <img src="/assets/Christina1.png" alt="Christina Bernhardt" class="about-me-img"></div>
 </section>

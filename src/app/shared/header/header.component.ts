@@ -1,6 +1,7 @@
 import { Component } from '@angular/core';
 import {Router, RouterModule} from '@angular/router';
 import {NgOptimizedImage} from "@angular/common";
+import {TranslationService} from "../../services/translation.service";
 
 @Component({
   selector: 'app-header',
@@ -12,7 +13,7 @@ import {NgOptimizedImage} from "@angular/common";
 export class HeaderComponent {
   private windowRef: Window = window;
 
-  constructor(private router: Router) {}
+  constructor(private router: Router, private translationservice: TranslationService) {}
 
   scrollToTopAndRedirect() {
     this.windowRef.scrollTo({ top: 0, behavior: 'smooth' });
@@ -24,6 +25,10 @@ export class HeaderComponent {
     if (menu) {
       menu.style.display = menu.style.display === 'block' ? 'none' : 'block';
     }
+  }
+
+  setLanguage(lang: string): void {
+    this.translationservice.setLanguage(lang);
   }
 
 }

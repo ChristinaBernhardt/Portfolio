@@ -8,6 +8,7 @@ import {AboutmeComponent} from "./maincontent/aboutme/aboutme.component";
 import {SkillsComponent} from "./maincontent/skills/skills.component";
 import {PortfolioComponent} from "./maincontent/portfolio/portfolio.component";
 import {HeaderComponent} from "./shared/header/header.component";
+import {TranslatePipe} from "./pipes/translate.pipe";
 
 
 export const routes: Routes = [
@@ -24,7 +25,11 @@ export const routes: Routes = [
 ];
 
 @NgModule({
-  imports: [RouterModule.forRoot(routes, { scrollPositionRestoration: 'enabled', anchorScrolling: 'enabled' })],
-  exports: [RouterModule]
+  declarations: [
+
+    TranslatePipe, // Registriere die Pipe
+  ],
+  exports: [RouterModule, TranslatePipe],
+  imports: [RouterModule.forRoot(routes, {scrollPositionRestoration: 'enabled', anchorScrolling: 'enabled'})]
 })
 export class AppRoutingModule { }
