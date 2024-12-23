@@ -14,6 +14,7 @@ export class PortfolioComponent implements OnInit {
   sectionsData = [
     {
       imgSrc: '/assets/startscreen_1-min.png',
+      title: 'El Pollo Loco',
       text: `
         <h3>1 / 3</h3>
         <h4>El Pollo Loco</h4>
@@ -22,7 +23,7 @@ export class PortfolioComponent implements OnInit {
           <span>CSS</span> |
           <span>JavaScript</span>
         </div>
-        <p>A run-and-shoot game based on an object-oriented approach. </p>
+        <p i18n>A run-and-shoot game based on an object-oriented approach. </p>
         <div class="buttons">
           <button>Try it out</button>
           <button>Github</button>
@@ -32,6 +33,7 @@ export class PortfolioComponent implements OnInit {
     },
     {
       imgSrc: 'https://via.placeholder.com/400',
+      title: 'Pokedex',
       text: `
         <h4>2 / 3</h4>
        <h4>Pokedex</h4>
@@ -50,6 +52,7 @@ export class PortfolioComponent implements OnInit {
     },
     {
       imgSrc: 'https://via.placeholder.com/400',
+      title: 'Join',
       text: `
         <h3>3 / 3</h3>
       <h4>Join</h4>

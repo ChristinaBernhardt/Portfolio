@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<xliff version="1.2">
+  <file source-language="en-US" target-language="de" datatype="plaintext" original="ng2.template">
+    <body>
+      <trans-unit id="3562199946446423606" datatype="html">
+        <source>About me</source>
+        <target>Über mich</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/maincontent/aboutme/aboutme.component.html</context>
+          <context context-type="linenumber">2,3</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="8008460559066020439" datatype="html">
+        <source>I am a Frontend Developer of Nuremberg, Germany. I help designers and companies to bring their ideas to real life. Creativity and logigal thinking are skills, that I have developed to connect ideas into quality products.</source>
+        <target>Ich bin ein Frontend-Entwickler aus Nürnberg, Deutschland. Ich helfe Designern und Unternehmen, ihre Ideen zum Leben zu erwecken. Kreativität und logisches Denken sind Fähigkeiten, die ich entwickelt habe, um Ideen in Qualitätsprodukte umzusetzen.</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/maincontent/aboutme/aboutme.component.html</context>
+          <context context-type="linenumber">6,8</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="8539203963740412937" datatype="html">
+        <source>If you think I`d be a good match for your projects, contact me!</source>
+        <target>Wenn Sie denken, dass ich gut zu Ihren Projekten passe, kontaktieren Sie mich!</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/maincontent/aboutme/aboutme.component.html</context>
+          <context context-type="linenumber">10,11</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="7612400720696374750" datatype="html">
+        <source> Based in Nuremberg</source>
+        <target>Ansässig in Nürnberg</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/maincontent/aboutme/aboutme.component.html</context>
+          <context context-type="linenumber">13</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="5095325319766133230" datatype="html">
+        <source> Open to work remote</source>
+        <target>Offen für Remote-Arbeit</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/maincontent/aboutme/aboutme.component.html</context>
+          <context context-type="linenumber">17</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="2221098506442067980" datatype="html">
+        <source>Say Hi!</source>
+        <target>Sagen Sie Hallo!</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/maincontent/contact/contact.component.html</context>
+          <context context-type="linenumber">4,5</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="2548116694315404200" datatype="html">
+        <source>Want to discuss a new project?</source>
+        <target>Möchten Sie ein neues Projekt besprechen?</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/maincontent/contact/contact.component.html</context>
+          <context context-type="linenumber">5,6</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="619885109525900840" datatype="html">
+        <source>Say hello! Let’s discuss your ideas and make it happen.</source>
+        <target>Sagen Sie Hallo! Lassen Sie uns Ihre Ideen besprechen und sie umsetzen.</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/maincontent/contact/contact.component.html</context>
+          <context context-type="linenumber">6,8</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="5686069782383578190" datatype="html">
+        <source> I&apos;ve read the <x id="START_LINK" ctype="x-a" equiv-text="&lt;a href=&quot;privacy&quot; class=&quot;link&quot;&gt;"/>privacy policy<x id="CLOSE_LINK" ctype="x-a" equiv-text="&lt;/a&gt;"/> and agree to the processing of my data. </source>
+        <target>Ich habe die <x id="START_LINK" ctype="x-a" equiv-text="&lt;a href=&quot;privacy&quot; class=&quot;link&quot;&gt;"/>Datenschutzrichtlinie<x id="CLOSE_LINK" ctype="x-a" equiv-text="&lt;/a&gt;"/> gelesen und stimme der Verarbeitung meiner Daten zu.</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/maincontent/contact/contact.component.html</context>
+          <context context-type="linenumber">49,51</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="8906702289452758002" datatype="html">
+        <source>Danke für Ihre Mail!</source>
+        <target>Danke für Ihre Mail!</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/maincontent/contact/contact.component.html</context>
+          <context context-type="linenumber">68,69</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="7431239137427890816" datatype="html">
+        <source>Wir werden uns so bald wie möglich bei Ihnen melden.</source>
+        <target>Wir werden uns so bald wie möglich bei Ihnen melden.</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/maincontent/contact/contact.component.html</context>
+          <context context-type="linenumber">69,70</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="4905245452770394345" datatype="html">
+        <source>Frontend<x id="LINE_BREAK" ctype="lb" equiv-text="&lt;br&gt;"/>Developer</source>
+        <target>Frontend<x id="LINE_BREAK" ctype="lb" equiv-text="&lt;br&gt;"/>Entwickler</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/maincontent/iam/iam.component.html</context>
+          <context context-type="linenumber">2,4</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="7947509412487983153" datatype="html">
+        <source><x id="START_TAG_DIV" ctype="x-div" equiv-text="&lt;div&gt;"/>Explore a selection of my work here - interact with projects to see my skills in action.<x id="CLOSE_TAG_DIV" ctype="x-div" equiv-text="&lt;/div&gt;"/></source>
+        <target><x id="START_TAG_DIV" ctype="x-div" equiv-text="&lt;div&gt;"/>Entdecken Sie hier eine Auswahl meiner Arbeiten – interagieren Sie mit Projekten, um meine Fähigkeiten in Aktion zu sehen.<x id="CLOSE_TAG_DIV" ctype="x-div" equiv-text="&lt;/div&gt;"/></target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/maincontent/portfolio/portfolio.component.html</context>
+          <context context-type="linenumber">5,7</context>
+        </context-group>
+      </trans-unit>
+    </body>
+  </file>
+</xliff>

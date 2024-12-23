@@ -57,6 +57,10 @@ body {
   min-height: calc(100vh - 92px); /* Use min-height instead of height */
 }
 
+.fontBold {
+  font-weight: bold;
+}
+
 .hover{
   &:hover{
     cursor: pointer;
