@@ -1,0 +1,933 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+    <file source-language="en-US" datatype="plaintext" original="ng2.template">
+        <body>
+            <trans-unit id="5891707175321515013" datatype="html">
+                <source>Imprint</source>
+                <context-group purpose="location">
+                    <context context-type="sourcefile">src/app/imprint/imprint.component.html</context>
+                    <context context-type="linenumber">3,4</context>
+                </context-group>
+            </trans-unit>
+            <trans-unit id="4320295778703465630" datatype="html">
+                <source><Info></Info>ation pursuant to § 5 TMG</source>
+                <context-group purpose="location">
+                    <context context-type="sourcefile">src/app/imprint/imprint.component.html</context>
+                    <context context-type="linenumber">6,7</context>
+                </context-group>
+            </trans-unit>
+            <trans-unit id="8128126204752518801" datatype="html">
+                <source><x id="START_TAG_STRONG" ctype="x-strong" equiv-text="&lt;strong&gt;"/>Represented by:
+                    <x id="CLOSE_TAG_STRONG" ctype="x-strong" equiv-text="&lt;/strong&gt;"/>
+                    <x id="LINE_BREAK" ctype="lb" equiv-text="&lt;br&gt;"/>
+                    Christina Bernhardt
+                </source>
+                <context-group purpose="location">
+                    <context context-type="sourcefile">src/app/imprint/imprint.component.html</context>
+                    <context context-type="linenumber">11,14</context>
+                </context-group>
+            </trans-unit>
+            <trans-unit id="324628730230667344" datatype="html">
+                <source><x id="START_TAG_STRONG" ctype="x-strong" equiv-text="&lt;strong&gt;"/>Contact:
+                    <x id="CLOSE_TAG_STRONG" ctype="x-strong" equiv-text="&lt;/strong&gt;"/>
+                    <x id="LINE_BREAK" ctype="lb" equiv-text="&lt;br&gt;"/>
+                    Phone: 0175-7276562
+                    <x id="LINE_BREAK" ctype="lb" equiv-text="&lt;br&gt;"/>
+                    Email:<x id="START_LINK" ctype="x-a" equiv-text="&lt;a href=&apos;mailto:sozia76@web.de&apos;&gt;"/>
+                    sozia76@web.de
+                    <x id="CLOSE_LINK" ctype="x-a" equiv-text="&lt;/a&gt;"/>
+                </source>
+                <context-group purpose="location">
+                    <context context-type="sourcefile">src/app/imprint/imprint.component.html</context>
+                    <context context-type="linenumber">14,18</context>
+                </context-group>
+            </trans-unit>
+            <trans-unit id="3046367935323313704" datatype="html">
+                <source><x id="START_TAG_STRONG" ctype="x-strong" equiv-text="&lt;strong&gt;"/>Disclaimer:
+                    <x id="CLOSE_TAG_STRONG" ctype="x-strong" equiv-text="&lt;/strong&gt;"/>
+                    <x id="LINE_BREAK" ctype="lb" equiv-text="&lt;br&gt;"/>
+                    <x id="LINE_BREAK" ctype="lb" equiv-text="&lt;br&gt;"/>
+                    <x id="START_TAG_STRONG" ctype="x-strong" equiv-text="&lt;strong&gt;"/>Liability for content:
+                    <x id="CLOSE_TAG_STRONG" ctype="x-strong" equiv-text="&lt;/strong&gt;"/>
+                    <x id="LINE_BREAK" ctype="lb" equiv-text="&lt;br&gt;"/>
+                    The contents of our pages were created with the greatest care. However, we cannot guarantee the
+                    accuracy, completeness, and timeliness of the contents. As a service provider, we are responsible
+                    for our own content on these pages according to § 7 para.1 TMG under general laws. However,
+                    according to §§ 8 to 10 TMG, we are not obligated as a service provider to monitor transmitted or
+                    stored external information or to investigate circumstances that indicate illegal activity.
+                    Obligations to remove or block the use of information under general laws remain unaffected. However,
+                    liability in this regard is only possible from the time of knowledge of a specific infringement.
+                    Upon becoming aware of such infringements, we will remove these contents immediately.
+                    <x id="LINE_BREAK" ctype="lb" equiv-text="&lt;br&gt;"/>
+                    <x id="LINE_BREAK" ctype="lb" equiv-text="&lt;br&gt;"/>
+                    <x id="START_TAG_STRONG" ctype="x-strong" equiv-text="&lt;strong&gt;"/>Liability for links:
+                    <x id="CLOSE_TAG_STRONG" ctype="x-strong" equiv-text="&lt;/strong&gt;"/>
+                    <x id="LINE_BREAK" ctype="lb" equiv-text="&lt;br&gt;"/>
+                    Our offer contains links to external third-party websites over whose content we have no influence.
+                    Therefore, we cannot assume any liability for these external contents. The respective provider or
+                    operator of the pages is always responsible for the content of the linked pages. The linked pages
+                    were checked for possible legal violations at the time of linking. Illegal contents were not
+                    recognizable at the time of linking. However, permanent content control of the linked pages is not
+                    reasonable without concrete evidence of a violation. Upon becoming aware of infringements, we will
+                    remove such links immediately.
+                    <x id="LINE_BREAK" ctype="lb" equiv-text="&lt;br&gt;"/>
+                    <x id="LINE_BREAK" ctype="lb" equiv-text="&lt;br&gt;"/>
+                    <x id="START_TAG_STRONG" ctype="x-strong" equiv-text="&lt;strong&gt;"/>Copyright:
+                    <x id="CLOSE_TAG_STRONG" ctype="x-strong" equiv-text="&lt;/strong&gt;"/>
+                    <x id="LINE_BREAK" ctype="lb" equiv-text="&lt;br&gt;"/>
+                    The contents and works on these pages created by the site operators are subject to German copyright
+                    law. Duplication, processing, distribution, and any kind of use beyond the limits of copyright law
+                    require the written consent of the respective author or creator. Downloads and copies of this site
+                    are only permitted for private, non-commercial use. Insofar as the content on this site was not
+                    created by the operator, the copyrights of third parties are respected. In particular, third-party
+                    content is marked as such. Should you nevertheless become aware of a copyright infringement, please
+                    inform us accordingly. Upon becoming aware of infringements, we will remove such content
+                    immediately.
+                    <x id="LINE_BREAK" ctype="lb" equiv-text="&lt;br&gt;"/>
+                    <x id="LINE_BREAK" ctype="lb" equiv-text="&lt;br&gt;"/>
+                    <x id="START_TAG_STRONG" ctype="x-strong" equiv-text="&lt;strong&gt;"/>Data protection:
+                    <x id="CLOSE_TAG_STRONG" ctype="x-strong" equiv-text="&lt;/strong&gt;"/>
+                    <x id="LINE_BREAK" ctype="lb" equiv-text="&lt;br&gt;"/>
+                    The use of our website is usually possible without providing personal data. As far as personal data
+                    (e.g., name, address, or email addresses) are collected on our pages, this is always done, as far as
+                    possible, on a voluntary basis. This data will not be passed on to third parties without your
+                    explicit consent.
+                    <x id="LINE_BREAK" ctype="lb" equiv-text="&lt;br&gt;"/>
+                    We point out that data transmission on the Internet (e.g., communication by email) may have security
+                    gaps. A complete protection of the data from access by third parties is not possible.
+                    <x id="LINE_BREAK" ctype="lb" equiv-text="&lt;br&gt;"/>
+                    The use of contact data published within the scope of the imprint obligation by third parties for
+                    the transmission of not expressly requested advertising and information materials is hereby
+                    expressly prohibited. The operators of the pages expressly reserve the right to take legal action in
+                    the event of unsolicited advertising information, such as spam emails.
+                    <x id="LINE_BREAK" ctype="lb" equiv-text="&lt;br&gt;"/>
+                    <x id="LINE_BREAK" ctype="lb" equiv-text="&lt;br&gt;"/>
+                    <x id="LINE_BREAK" ctype="lb" equiv-text="&lt;br&gt;"/>
+                    <x id="START_TAG_STRONG" ctype="x-strong" equiv-text="&lt;strong&gt;"/>Google Analytics:
+                    <x id="CLOSE_TAG_STRONG" ctype="x-strong" equiv-text="&lt;/strong&gt;"/>
+                    <x id="LINE_BREAK" ctype="lb" equiv-text="&lt;br&gt;"/>
+                    This website uses Google Analytics, a web analytics service provided by Google Inc. (&quot;Google&quot;).
+                    Google Analytics uses so-called &quot;cookies,&quot; text files stored on your computer that allow
+                    an analysis of your website usage. The information generated by the cookie about your use of this
+                    website (including your IP address) is transmitted to and stored on a Google server in the USA.
+                    Google will use this information to evaluate your use of the website, compile reports on website
+                    activity for website operators, and provide other services relating to website activity and Internet
+                    usage. Google may also transfer this information to third parties if required by law or if third
+                    parties process this data on behalf of Google. Google will not associate your IP address with any
+                    other data held by Google. You can prevent the installation of cookies by adjusting your browser
+                    software settings; however, we point out that you may not be able to use all the functions of this
+                    website to their full extent in this case. By using this website, you consent to the processing of
+                    data about you by Google in the manner and for the purposes set out above.
+                    <x id="LINE_BREAK" ctype="lb" equiv-text="&lt;br&gt;"/>
+                    <x id="LINE_BREAK" ctype="lb" equiv-text="&lt;br&gt;"/>
+                    <x id="START_TAG_STRONG" ctype="x-strong" equiv-text="&lt;strong&gt;"/>Google AdSense:
+                    <x id="CLOSE_TAG_STRONG" ctype="x-strong" equiv-text="&lt;/strong&gt;"/>
+                    <x id="LINE_BREAK" ctype="lb" equiv-text="&lt;br&gt;"/>
+                    This website uses Google AdSense, a web advertising service provided by Google Inc., USA (&quot;Google&quot;).
+                    Google AdSense uses so-called &quot;cookies&quot; (text files) that are stored on your computer and
+                    allow an analysis of your use of the website. Google AdSense also uses so-called &quot;web beacons&quot;
+                    (small invisible graphics) to collect information. By using the web beacon, simple actions like
+                    visitor traffic on the website can be recorded and collected. The information generated by the
+                    cookie and/or web beacon about your use of this website (including your IP address) is transmitted
+                    to and stored on a Google server in the USA. Google will use this information to evaluate your use
+                    of the website concerning the advertisements, compile reports on website activity and advertisements
+                    for website operators, and provide other services related to website and Internet usage. Google may
+                    also transfer this information to third parties if required by law or if third parties process this
+                    data on behalf of Google. Google will not associate your IP address with any other data held by
+                    Google. You can prevent the storage of cookies on your hard drive and the display of web beacons by
+                    selecting &quot;do not accept cookies&quot; in your browser settings (in MS Internet Explorer under
+                    &quot;Tools &gt; Internet Options &gt; Privacy &gt; Settings&quot;; in Firefox under &quot;Tools
+                    &gt; Options &gt; Privacy &gt; Cookies&quot;); however, we point out that you may not be able to use
+                    all functions of this website to their full extent in this case. By using this website, you consent
+                    to the processing of data about you by Google in the manner and for the purposes set out above.
+                </source>
+                <context-group purpose="location">
+                    <context context-type="sourcefile">src/app/imprint/imprint.component.html</context>
+                    <context context-type="linenumber">18,28</context>
+                </context-group>
+            </trans-unit>
+            <trans-unit id="4538676969179465823" datatype="html">
+                <source>Imprint from<x id="START_LINK" ctype="x-a"
+                                       equiv-text="&lt;a href=&quot;https://www.impressum-generator.de&quot;&gt;"/>
+                    Impressum Generator
+                    <x id="CLOSE_LINK" ctype="x-a" equiv-text="&lt;/a&gt;"/>
+                    by<x id="START_LINK_1" equiv-text="&lt;a
+    href=&quot;https://www.kanzlei-hasselbach.de/standorte/frankfurt/&quot; rel=&quot;nofollow&quot;&gt;"/>Kanzlei
+                    Hasselbach, Frankfurt
+                    <x id="CLOSE_LINK" ctype="x-a" equiv-text="&lt;/a&gt;"/>
+                </source>
+                <context-group purpose="location">
+                    <context context-type="sourcefile">src/app/imprint/imprint.component.html</context>
+                    <context context-type="linenumber">29,33</context>
+                </context-group>
+            </trans-unit>
+            <trans-unit id="3562199946446423606" datatype="html">
+                <source>About me</source>
+                <context-group purpose="location">
+                    <context context-type="sourcefile">src/app/maincontent/aboutme/aboutme.component.html</context>
+                    <context context-type="linenumber">2,3</context>
+                </context-group>
+                <context-group purpose="location">
+                    <context context-type="sourcefile">src/app/shared/header/header.component.html</context>
+                    <context context-type="linenumber">12,13</context>
+                </context-group>
+            </trans-unit>
+            <trans-unit id="1236168262614494576" datatype="html">
+                <source>I am a Frontend Developer of Nuremberg, Germany. I help designers and companies to bring their
+                    ideas to real life. Creativity and logical thinking are skills that I have developed to connect
+                    ideas into quality products.
+                </source>
+                <context-group purpose="location">
+                    <context context-type="sourcefile">src/app/maincontent/aboutme/aboutme.component.html</context>
+                    <context context-type="linenumber">6,8</context>
+                </context-group>
+            </trans-unit>
+            <trans-unit id="7820363288221030414" datatype="html">
+                <source>If you think I would be a good match for your projects, contact me!</source>
+                <context-group purpose="location">
+                    <context context-type="sourcefile">src/app/maincontent/aboutme/aboutme.component.html</context>
+                    <context context-type="linenumber">8,10</context>
+                </context-group>
+            </trans-unit>
+            <trans-unit id="8686476056343645301" datatype="html">
+                <source>Home icon</source>
+                <context-group purpose="location">
+                    <context context-type="sourcefile">src/app/maincontent/aboutme/aboutme.component.html</context>
+                    <context context-type="linenumber">11,12</context>
+                </context-group>
+                <note priority="1" from="description">Based in Nuremberg</note>
+            </trans-unit>
+            <trans-unit id="9149489969689784137" datatype="html">
+                <source>Based in Nuremberg</source>
+                <context-group purpose="location">
+                    <context context-type="sourcefile">src/app/maincontent/aboutme/aboutme.component.html</context>
+                    <context context-type="linenumber">12,13</context>
+                </context-group>
+            </trans-unit>
+            <trans-unit id="3760341237043640911" datatype="html">
+                <source>Remote work icon</source>
+                <context-group purpose="location">
+                    <context context-type="sourcefile">src/app/maincontent/aboutme/aboutme.component.html</context>
+                    <context context-type="linenumber">16,17</context>
+                </context-group>
+                <note priority="1" from="description">Open to work remote</note>
+            </trans-unit>
+            <trans-unit id="8735311338339037489" datatype="html">
+                <source>Open to work remote</source>
+                <context-group purpose="location">
+                    <context context-type="sourcefile">src/app/maincontent/aboutme/aboutme.component.html</context>
+                    <context context-type="linenumber">17,18</context>
+                </context-group>
+            </trans-unit>
+            <trans-unit id="7445888516487494187" datatype="html">
+                <source>Let&apos;s talk</source>
+                <context-group purpose="location">
+                    <context context-type="sourcefile">src/app/maincontent/aboutme/aboutme.component.html</context>
+                    <context context-type="linenumber">21,22</context>
+                </context-group>
+            </trans-unit>
+            <trans-unit id="2221098506442067980" datatype="html">
+                <source>Say Hi!</source>
+                <context-group purpose="location">
+                    <context context-type="sourcefile">src/app/maincontent/contact/contact.component.html</context>
+                    <context context-type="linenumber">4,5</context>
+                </context-group>
+            </trans-unit>
+            <trans-unit id="2548116694315404200" datatype="html">
+                <source>Want to discuss a new project?</source>
+                <context-group purpose="location">
+                    <context context-type="sourcefile">src/app/maincontent/contact/contact.component.html</context>
+                    <context context-type="linenumber">5,6</context>
+                </context-group>
+            </trans-unit>
+            <trans-unit id="619885109525900840" datatype="html">
+                <source>Say hello! Let’s discuss your ideas and make it happen.</source>
+                <context-group purpose="location">
+                    <context context-type="sourcefile">src/app/maincontent/contact/contact.component.html</context>
+                    <context context-type="linenumber">6,8</context>
+                </context-group>
+            </trans-unit>
+            <trans-unit id="8203367621031610680" datatype="html">
+                <source>Your name</source>
+                <context-group purpose="location">
+                    <context context-type="sourcefile">src/app/maincontent/contact/contact.component.html</context>
+                    <context context-type="linenumber">12,14</context>
+                </context-group>
+                <note priority="1" from="description">Enter your name</note>
+            </trans-unit>
+            <trans-unit id="1769661379068269645" datatype="html">
+                <source>Your email</source>
+                <context-group purpose="location">
+                    <context context-type="sourcefile">src/app/maincontent/contact/contact.component.html</context>
+                    <context context-type="linenumber">24,26</context>
+                </context-group>
+                <note priority="1" from="description">Enter your email</note>
+            </trans-unit>
+            <trans-unit id="1391056849737890767" datatype="html">
+                <source>Your message</source>
+                <context-group purpose="location">
+                    <context context-type="sourcefile">src/app/maincontent/contact/contact.component.html</context>
+                    <context context-type="linenumber">35,37</context>
+                </context-group>
+                <note priority="1" from="description">Enter your message</note>
+            </trans-unit>
+            <trans-unit id="5686069782383578190" datatype="html">
+                <source>I&apos;ve read the<x id="START_LINK" ctype="x-a"
+                                             equiv-text="&lt;a href=&quot;privacy&quot; class=&quot;link&quot;&gt;"/>
+                    privacy policy
+                    <x id="CLOSE_LINK" ctype="x-a" equiv-text="&lt;/a&gt;"/>
+                    and agree to the processing of my data.
+                </source>
+                <context-group purpose="location">
+                    <context context-type="sourcefile">src/app/maincontent/contact/contact.component.html</context>
+                    <context context-type="linenumber">52,54</context>
+                </context-group>
+            </trans-unit>
+            <trans-unit id="3367677825946625637" datatype="html">
+                <source>Send message</source>
+                <context-group purpose="location">
+                    <context context-type="sourcefile">src/app/maincontent/contact/contact.component.html</context>
+                    <context context-type="linenumber">63</context>
+                </context-group>
+            </trans-unit>
+            <trans-unit id="8526267784939186101" datatype="html">
+                <source>Thank you for your email!</source>
+                <context-group purpose="location">
+                    <context context-type="sourcefile">src/app/maincontent/contact/contact.component.html</context>
+                    <context context-type="linenumber">72,73</context>
+                </context-group>
+            </trans-unit>
+            <trans-unit id="7527189327766503614" datatype="html">
+                <source>We will get back to you as soon as possible.</source>
+                <context-group purpose="location">
+                    <context context-type="sourcefile">src/app/maincontent/contact/contact.component.html</context>
+                    <context context-type="linenumber">73,74</context>
+                </context-group>
+            </trans-unit>
+            <trans-unit id="4905245452770394345" datatype="html">
+                <source>Frontend<x id="LINE_BREAK" ctype="lb" equiv-text="&lt;br&gt;"/>Developer
+                </source>
+                <context-group purpose="location">
+                    <context context-type="sourcefile">src/app/maincontent/iam/iam.component.html</context>
+                    <context context-type="linenumber">2,4</context>
+                </context-group>
+            </trans-unit>
+            <trans-unit id="9201103587777813545" datatype="html">
+                <source>Portfolio</source>
+                <context-group purpose="location">
+                    <context context-type="sourcefile">src/app/maincontent/portfolio/portfolio.component.html</context>
+                    <context context-type="linenumber">3,4</context>
+                </context-group>
+                <context-group purpose="location">
+                    <context context-type="sourcefile">src/app/shared/header/header.component.html</context>
+                    <context context-type="linenumber">14,15</context>
+                </context-group>
+            </trans-unit>
+            <trans-unit id="7854484596660447963" datatype="html">
+                <source>Explore a selection of my work here - interact with projects to see my skills in action.
+                </source>
+                <context-group purpose="location">
+                    <context context-type="sourcefile">src/app/maincontent/portfolio/portfolio.component.html</context>
+                    <context context-type="linenumber">6,7</context>
+                </context-group>
+            </trans-unit>
+            <trans-unit id="8919388643860740880" datatype="html">
+                <source>El Pollo Loco</source>
+                <context-group purpose="location">
+                    <context context-type="sourcefile">src/app/maincontent/portfolio/portfolio.component.html</context>
+                    <context context-type="linenumber">22,23</context>
+                </context-group>
+            </trans-unit>
+            <trans-unit id="7913678223536081420" datatype="html">
+                <source>HTML</source>
+                <context-group purpose="location">
+                    <context context-type="sourcefile">src/app/maincontent/portfolio/portfolio.component.html</context>
+                    <context context-type="linenumber">24,25</context>
+                </context-group>
+                <context-group purpose="location">
+                    <context context-type="sourcefile">src/app/maincontent/portfolio/portfolio.component.html</context>
+                    <context context-type="linenumber">39,40</context>
+                </context-group>
+                <context-group purpose="location">
+                    <context context-type="sourcefile">src/app/maincontent/portfolio/portfolio.component.html</context>
+                    <context context-type="linenumber">54,55</context>
+                </context-group>
+            </trans-unit>
+            <trans-unit id="5177113012942461199" datatype="html">
+                <source>CSS</source>
+                <context-group purpose="location">
+                    <context context-type="sourcefile">src/app/maincontent/portfolio/portfolio.component.html</context>
+                    <context context-type="linenumber">25,26</context>
+                </context-group>
+                <context-group purpose="location">
+                    <context context-type="sourcefile">src/app/maincontent/portfolio/portfolio.component.html</context>
+                    <context context-type="linenumber">40,41</context>
+                </context-group>
+                <context-group purpose="location">
+                    <context context-type="sourcefile">src/app/maincontent/portfolio/portfolio.component.html</context>
+                    <context context-type="linenumber">55,56</context>
+                </context-group>
+            </trans-unit>
+            <trans-unit id="6180346896314915203" datatype="html">
+                <source>JavaScript</source>
+                <context-group purpose="location">
+                    <context context-type="sourcefile">src/app/maincontent/portfolio/portfolio.component.html</context>
+                    <context context-type="linenumber">26,27</context>
+                </context-group>
+                <context-group purpose="location">
+                    <context context-type="sourcefile">src/app/maincontent/portfolio/portfolio.component.html</context>
+                    <context context-type="linenumber">41,42</context>
+                </context-group>
+                <context-group purpose="location">
+                    <context context-type="sourcefile">src/app/maincontent/portfolio/portfolio.component.html</context>
+                    <context context-type="linenumber">56,57</context>
+                </context-group>
+            </trans-unit>
+            <trans-unit id="5217463941012763066" datatype="html">
+                <source>A run-and-shoot game based on an object-oriented approach.</source>
+                <context-group purpose="location">
+                    <context context-type="sourcefile">src/app/maincontent/portfolio/portfolio.component.html</context>
+                    <context context-type="linenumber">28,29</context>
+                </context-group>
+            </trans-unit>
+            <trans-unit id="1293431484102088563" datatype="html">
+                <source>Try it out</source>
+                <context-group purpose="location">
+                    <context context-type="sourcefile">src/app/maincontent/portfolio/portfolio.component.html</context>
+                    <context context-type="linenumber">30,31</context>
+                </context-group>
+                <context-group purpose="location">
+                    <context context-type="sourcefile">src/app/maincontent/portfolio/portfolio.component.html</context>
+                    <context context-type="linenumber">45,46</context>
+                </context-group>
+                <context-group purpose="location">
+                    <context context-type="sourcefile">src/app/maincontent/portfolio/portfolio.component.html</context>
+                    <context context-type="linenumber">60,61</context>
+                </context-group>
+            </trans-unit>
+            <trans-unit id="3119797645194699699" datatype="html">
+                <source>Github</source>
+                <context-group purpose="location">
+                    <context context-type="sourcefile">src/app/maincontent/portfolio/portfolio.component.html</context>
+                    <context context-type="linenumber">31,32</context>
+                </context-group>
+                <context-group purpose="location">
+                    <context context-type="sourcefile">src/app/maincontent/portfolio/portfolio.component.html</context>
+                    <context context-type="linenumber">46,47</context>
+                </context-group>
+                <context-group purpose="location">
+                    <context context-type="sourcefile">src/app/maincontent/portfolio/portfolio.component.html</context>
+                    <context context-type="linenumber">61,62</context>
+                </context-group>
+            </trans-unit>
+            <trans-unit id="2424010263022843917" datatype="html">
+                <source>Pokedex</source>
+                <context-group purpose="location">
+                    <context context-type="sourcefile">src/app/maincontent/portfolio/portfolio.component.html</context>
+                    <context context-type="linenumber">37,38</context>
+                </context-group>
+            </trans-unit>
+            <trans-unit id="3050479057906929993" datatype="html">
+                <source>Project description goes here. Replace this text with a description of your project or work.
+                </source>
+                <context-group purpose="location">
+                    <context context-type="sourcefile">src/app/maincontent/portfolio/portfolio.component.html</context>
+                    <context context-type="linenumber">43,44</context>
+                </context-group>
+            </trans-unit>
+            <trans-unit id="8307140841776883735" datatype="html">
+                <source>Join</source>
+                <context-group purpose="location">
+                    <context context-type="sourcefile">src/app/maincontent/portfolio/portfolio.component.html</context>
+                    <context context-type="linenumber">52,53</context>
+                </context-group>
+            </trans-unit>
+            <trans-unit id="1771029717258503475" datatype="html">
+                <source>Another project description. Replace this text with your custom content.</source>
+                <context-group purpose="location">
+                    <context context-type="sourcefile">src/app/maincontent/portfolio/portfolio.component.html</context>
+                    <context context-type="linenumber">58,59</context>
+                </context-group>
+            </trans-unit>
+            <trans-unit id="8561129210430791979" datatype="html">
+                <source>My skills</source>
+
+                <context-group purpose="location">
+                    <context context-type="sourcefile">src/app/maincontent/skills/skills.component.html</context>
+                    <context context-type="linenumber">4,5</context>
+                </context-group>
+                <context-group purpose="location">
+                    <context context-type="sourcefile">src/app/shared/header/header.component.html</context>
+                    <context context-type="linenumber">13,14</context>
+                </context-group>
+            </trans-unit>
+            <trans-unit id="4218173861721406672" datatype="html">
+                <source>Don`t see the skill you need?<x id="START_LINK" ctype="x-a"
+                                                        equiv-text="&lt;a href=&quot;#contact&quot; class=&quot;link&quot;&gt;"/>
+                    Contact me,
+                    <x id="CLOSE_LINK" ctype="x-a" equiv-text="&lt;/a&gt;"/>
+                    I`m always ready to learn!
+                </source>
+                <context-group purpose="location">
+                    <context context-type="sourcefile">src/app/maincontent/skills/skills.component.html</context>
+                    <context context-type="linenumber">46,48</context>
+                </context-group>
+            </trans-unit>
+            <trans-unit id="8439955599488894226" datatype="html">
+                <source>Privacy Policy</source>
+                <context-group purpose="location">
+                    <context context-type="sourcefile">src/app/privacy/privacy.component.html</context>
+                    <context context-type="linenumber">2,3</context>
+                </context-group>
+            </trans-unit>
+            <trans-unit id="8565426183004843603" datatype="html">
+                <source>Last updated: September 14, 2024</source>
+                <context-group purpose="location">
+                    <context context-type="sourcefile">src/app/privacy/privacy.component.html</context>
+                    <context context-type="linenumber">3,5</context>
+                </context-group>
+            </trans-unit>
+            <trans-unit id="8716695021900630124" datatype="html">
+                <source>Table of Contents</source>
+                <context-group purpose="location">
+                    <context context-type="sourcefile">src/app/privacy/privacy.component.html</context>
+                    <context context-type="linenumber">5,6</context>
+                </context-group>
+            </trans-unit>
+            <trans-unit id="6568170238060271938" datatype="html">
+                <source>Responsible Party</source>
+                <context-group purpose="location">
+                    <context context-type="sourcefile">src/app/privacy/privacy.component.html</context>
+                    <context context-type="linenumber">7,8</context>
+                </context-group>
+                <context-group purpose="location">
+                    <context context-type="sourcefile">src/app/privacy/privacy.component.html</context>
+                    <context context-type="linenumber">19,20</context>
+                </context-group>
+            </trans-unit>
+            <trans-unit id="5055610677672196464" datatype="html">
+                <source>Overview of Processing Activities</source>
+                <context-group purpose="location">
+                    <context context-type="sourcefile">src/app/privacy/privacy.component.html</context>
+                    <context context-type="linenumber">8,9</context>
+                </context-group>
+                <context-group purpose="location">
+                    <context context-type="sourcefile">src/app/privacy/privacy.component.html</context>
+                    <context context-type="linenumber">23,24</context>
+                </context-group>
+            </trans-unit>
+            <trans-unit id="4169674552524746088" datatype="html">
+                <source>Relevant Legal Bases</source>
+                <context-group purpose="location">
+                    <context context-type="sourcefile">src/app/privacy/privacy.component.html</context>
+                    <context context-type="linenumber">9,10</context>
+                </context-group>
+                <context-group purpose="location">
+                    <context context-type="sourcefile">src/app/privacy/privacy.component.html</context>
+                    <context context-type="linenumber">52,53</context>
+                </context-group>
+            </trans-unit>
+            <trans-unit id="1525609736914846831" datatype="html">
+                <source>Security Measures</source>
+                <context-group purpose="location">
+                    <context context-type="sourcefile">src/app/privacy/privacy.component.html</context>
+                    <context context-type="linenumber">10,11</context>
+                </context-group>
+                <context-group purpose="location">
+                    <context context-type="sourcefile">src/app/privacy/privacy.component.html</context>
+                    <context context-type="linenumber">62,63</context>
+                </context-group>
+            </trans-unit>
+            <trans-unit id="3302237572975347191" datatype="html">
+                <source>International Data Transfers</source>
+                <context-group purpose="location">
+                    <context context-type="sourcefile">src/app/privacy/privacy.component.html</context>
+                    <context context-type="linenumber">11,12</context>
+                </context-group>
+                <context-group purpose="location">
+                    <context context-type="sourcefile">src/app/privacy/privacy.component.html</context>
+                    <context context-type="linenumber">65,66</context>
+                </context-group>
+            </trans-unit>
+            <trans-unit id="2505124493102023009" datatype="html">
+                <source>General Information on Data Storage and Deletion</source>
+                <context-group purpose="location">
+                    <context context-type="sourcefile">src/app/privacy/privacy.component.html</context>
+                    <context context-type="linenumber">12,13</context>
+                </context-group>
+                <context-group purpose="location">
+                    <context context-type="sourcefile">src/app/privacy/privacy.component.html</context>
+                    <context context-type="linenumber">68,69</context>
+                </context-group>
+            </trans-unit>
+            <trans-unit id="5800768782134693415" datatype="html">
+                <source>Rights of Data Subjects</source>
+                <context-group purpose="location">
+                    <context context-type="sourcefile">src/app/privacy/privacy.component.html</context>
+                    <context context-type="linenumber">13,14</context>
+                </context-group>
+                <context-group purpose="location">
+                    <context context-type="sourcefile">src/app/privacy/privacy.component.html</context>
+                    <context context-type="linenumber">71,72</context>
+                </context-group>
+            </trans-unit>
+            <trans-unit id="2148230273938175822" datatype="html">
+                <source>Provision of Online Services and Web Hosting</source>
+                <context-group purpose="location">
+                    <context context-type="sourcefile">src/app/privacy/privacy.component.html</context>
+                    <context context-type="linenumber">14,15</context>
+                </context-group>
+                <context-group purpose="location">
+                    <context context-type="sourcefile">src/app/privacy/privacy.component.html</context>
+                    <context context-type="linenumber">78,79</context>
+                </context-group>
+            </trans-unit>
+            <trans-unit id="1903492749275192832" datatype="html">
+                <source>Use of Cookies</source>
+                <context-group purpose="location">
+                    <context context-type="sourcefile">src/app/privacy/privacy.component.html</context>
+                    <context context-type="linenumber">15,16</context>
+                </context-group>
+                <context-group purpose="location">
+                    <context context-type="sourcefile">src/app/privacy/privacy.component.html</context>
+                    <context context-type="linenumber">81,82</context>
+                </context-group>
+            </trans-unit>
+            <trans-unit id="1481352559932406940" datatype="html">
+                <source>Contact and Inquiry Management</source>
+                <context-group purpose="location">
+                    <context context-type="sourcefile">src/app/privacy/privacy.component.html</context>
+                    <context context-type="linenumber">16,17</context>
+                </context-group>
+                <context-group purpose="location">
+                    <context context-type="sourcefile">src/app/privacy/privacy.component.html</context>
+                    <context context-type="linenumber">84,85</context>
+                </context-group>
+            </trans-unit>
+            <trans-unit id="8043063208239115851" datatype="html">
+                <source>The following overview summarizes the types of data processed, their purposes, and the
+                    categories of affected persons.
+                </source>
+                <context-group purpose="location">
+                    <context context-type="sourcefile">src/app/privacy/privacy.component.html</context>
+                    <context context-type="linenumber">24,26</context>
+                </context-group>
+            </trans-unit>
+            <trans-unit id="6259304810347593155" datatype="html">
+                <source>Types of Data Processed</source>
+                <context-group purpose="location">
+                    <context context-type="sourcefile">src/app/privacy/privacy.component.html</context>
+                    <context context-type="linenumber">26,27</context>
+                </context-group>
+            </trans-unit>
+            <trans-unit id="8755989977172573668" datatype="html">
+                <source>Inventory data.</source>
+                <context-group purpose="location">
+                    <context context-type="sourcefile">src/app/privacy/privacy.component.html</context>
+                    <context context-type="linenumber">28,29</context>
+                </context-group>
+            </trans-unit>
+            <trans-unit id="1508462549007919806" datatype="html">
+                <source>Contact data.</source>
+                <context-group purpose="location">
+                    <context context-type="sourcefile">src/app/privacy/privacy.component.html</context>
+                    <context context-type="linenumber">29,30</context>
+                </context-group>
+            </trans-unit>
+            <trans-unit id="593765501558895711" datatype="html">
+                <source>Content data.</source>
+                <context-group purpose="location">
+                    <context context-type="sourcefile">src/app/privacy/privacy.component.html</context>
+                    <context context-type="linenumber">30,31</context>
+                </context-group>
+            </trans-unit>
+            <trans-unit id="4500100614725402742" datatype="html">
+                <source>Usage data.</source>
+                <context-group purpose="location">
+                    <context context-type="sourcefile">src/app/privacy/privacy.component.html</context>
+                    <context context-type="linenumber">31,32</context>
+                </context-group>
+            </trans-unit>
+            <trans-unit id="2080557138723968178" datatype="html">
+                <source>Meta, communication, and procedural data.</source>
+                <context-group purpose="location">
+                    <context context-type="sourcefile">src/app/privacy/privacy.component.html</context>
+                    <context context-type="linenumber">32,33</context>
+                </context-group>
+            </trans-unit>
+            <trans-unit id="2895796043430589244" datatype="html">
+                <source>Log data.</source>
+                <context-group purpose="location">
+                    <context context-type="sourcefile">src/app/privacy/privacy.component.html</context>
+                    <context context-type="linenumber">33,34</context>
+                </context-group>
+            </trans-unit>
+            <trans-unit id="784161314641201347" datatype="html">
+                <source>Categories of Affected Persons</source>
+                <context-group purpose="location">
+                    <context context-type="sourcefile">src/app/privacy/privacy.component.html</context>
+                    <context context-type="linenumber">36,37</context>
+                </context-group>
+            </trans-unit>
+            <trans-unit id="3042595027853261230" datatype="html">
+                <source>Communication partners.</source>
+                <context-group purpose="location">
+                    <context context-type="sourcefile">src/app/privacy/privacy.component.html</context>
+                    <context context-type="linenumber">38,39</context>
+                </context-group>
+            </trans-unit>
+            <trans-unit id="3877892381177768623" datatype="html">
+                <source>Users.</source>
+                <context-group purpose="location">
+                    <context context-type="sourcefile">src/app/privacy/privacy.component.html</context>
+                    <context context-type="linenumber">39,40</context>
+                </context-group>
+            </trans-unit>
+            <trans-unit id="3824851932565429392" datatype="html">
+                <source>Purposes of Processing</source>
+                <context-group purpose="location">
+                    <context context-type="sourcefile">src/app/privacy/privacy.component.html</context>
+                    <context context-type="linenumber">42,43</context>
+                </context-group>
+            </trans-unit>
+            <trans-unit id="3746833014816348157" datatype="html">
+                <source>Communication.</source>
+                <context-group purpose="location">
+                    <context context-type="sourcefile">src/app/privacy/privacy.component.html</context>
+                    <context context-type="linenumber">44,45</context>
+                </context-group>
+            </trans-unit>
+            <trans-unit id="4437014751216568074" datatype="html">
+                <source>Security measures.</source>
+                <context-group purpose="location">
+                    <context context-type="sourcefile">src/app/privacy/privacy.component.html</context>
+                    <context context-type="linenumber">45,46</context>
+                </context-group>
+            </trans-unit>
+            <trans-unit id="4638871250592462426" datatype="html">
+                <source>Organizational and administrative procedures.</source>
+                <context-group purpose="location">
+                    <context context-type="sourcefile">src/app/privacy/privacy.component.html</context>
+                    <context context-type="linenumber">46,47</context>
+                </context-group>
+            </trans-unit>
+            <trans-unit id="3569046128815037602" datatype="html">
+                <source>Feedback.</source>
+                <context-group purpose="location">
+                    <context context-type="sourcefile">src/app/privacy/privacy.component.html</context>
+                    <context context-type="linenumber">47,48</context>
+                </context-group>
+            </trans-unit>
+            <trans-unit id="3466091637328014150" datatype="html">
+                <source>Providing our online offering and user-friendliness.</source>
+                <context-group purpose="location">
+                    <context context-type="sourcefile">src/app/privacy/privacy.component.html</context>
+                    <context context-type="linenumber">48,49</context>
+                </context-group>
+            </trans-unit>
+            <trans-unit id="3007085806266010114" datatype="html">
+                <source>Information technology infrastructure.</source>
+                <context-group purpose="location">
+                    <context context-type="sourcefile">src/app/privacy/privacy.component.html</context>
+                    <context context-type="linenumber">49,50</context>
+                </context-group>
+            </trans-unit>
+            <trans-unit id="2055137894748539608" datatype="html">
+                <source><x id="START_TAG_STRONG" ctype="x-strong" equiv-text="&lt;strong&gt;"/>Relevant Legal Bases
+                    under the GDPR:
+                    <x id="CLOSE_TAG_STRONG" ctype="x-strong" equiv-text="&lt;/strong&gt;"/>
+                    The following provides an overview of the legal bases of the GDPR on which we process personal data.
+                    Please note that national data protection regulations in your or our country of residence may apply
+                    in addition to the GDPR. If specific legal bases are relevant in individual cases, we will inform
+                    you in this privacy policy.
+                </source>
+                <context-group purpose="location">
+                    <context context-type="sourcefile">src/app/privacy/privacy.component.html</context>
+                    <context context-type="linenumber">53,55</context>
+                </context-group>
+            </trans-unit>
+            <trans-unit id="4899663146131754303" datatype="html">
+                <source><x id="START_TAG_STRONG" ctype="x-strong" equiv-text="&lt;strong&gt;"/>Consent (Art. 6(1)(a)
+                    GDPR):
+                    <x id="CLOSE_TAG_STRONG" ctype="x-strong" equiv-text="&lt;/strong&gt;"/>
+                    The data subject has given their consent to the processing of their personal data for one or more
+                    specific purposes.
+                </source>
+                <context-group purpose="location">
+                    <context context-type="sourcefile">src/app/privacy/privacy.component.html</context>
+                    <context context-type="linenumber">55,56</context>
+                </context-group>
+            </trans-unit>
+            <trans-unit id="4240550490599611387" datatype="html">
+                <source><x id="START_TAG_STRONG" ctype="x-strong" equiv-text="&lt;strong&gt;"/>Contract performance and
+                    pre-contractual inquiries (Art. 6(1)(b) GDPR):
+                    <x id="CLOSE_TAG_STRONG" ctype="x-strong" equiv-text="&lt;/strong&gt;"/>
+                    Processing is necessary for the performance of a contract to which the data subject is a party or to
+                    take pre-contractual steps at the data subject&apos;s request.
+                </source>
+                <context-group purpose="location">
+                    <context context-type="sourcefile">src/app/privacy/privacy.component.html</context>
+                    <context context-type="linenumber">56,57</context>
+                </context-group>
+            </trans-unit>
+            <trans-unit id="2331335541979461434" datatype="html">
+                <source><x id="START_TAG_STRONG" ctype="x-strong" equiv-text="&lt;strong&gt;"/>Legitimate interests
+                    (Art. 6(1)(f) GDPR):
+                    <x id="CLOSE_TAG_STRONG" ctype="x-strong" equiv-text="&lt;/strong&gt;"/>
+                    Processing is necessary for the purposes of the legitimate interests pursued by the controller or a
+                    third party, except where such interests are overridden by the interests or fundamental rights and
+                    freedoms of the data subject which require protection of personal data.
+                </source>
+                <context-group purpose="location">
+                    <context context-type="sourcefile">src/app/privacy/privacy.component.html</context>
+                    <context context-type="linenumber">57,60</context>
+                </context-group>
+            </trans-unit>
+            <trans-unit id="1270619050757421812" datatype="html">
+                <source><x id="START_TAG_STRONG" ctype="x-strong" equiv-text="&lt;strong&gt;"/>National Data Protection
+                    Regulations in Germany:
+                    <x id="CLOSE_TAG_STRONG" ctype="x-strong" equiv-text="&lt;/strong&gt;"/>
+                    In addition to the GDPR, national data protection regulations in Germany apply, such as the Federal
+                    Data Protection Act (BDSG). This includes specific provisions on the right to information, deletion,
+                    objection, the processing of special categories of personal data, processing for other purposes, and
+                    automated individual decision-making, including profiling.
+                </source>
+                <context-group purpose="location">
+                    <context context-type="sourcefile">src/app/privacy/privacy.component.html</context>
+                    <context context-type="linenumber">60,62</context>
+                </context-group>
+            </trans-unit>
+            <trans-unit id="2027297036205252944" datatype="html">
+                <source>We take appropriate technical and organizational measures to ensure a level of security
+                    appropriate to the risk, considering the state of the art, implementation costs, the nature, scope,
+                    context, and purposes of processing, as well as the varying likelihood and severity of risks to the
+                    rights and freedoms of natural persons.
+                </source>
+                <context-group purpose="location">
+                    <context context-type="sourcefile">src/app/privacy/privacy.component.html</context>
+                    <context context-type="linenumber">63,65</context>
+                </context-group>
+            </trans-unit>
+            <trans-unit id="6182158978842223091" datatype="html">
+                <source>If we process data in a third country (i.e., outside the European Union (EU) or the European
+                    Economic Area (EEA)) or disclose or transfer data to third parties, it will only occur in compliance
+                    with legal requirements.
+                </source>
+                <context-group purpose="location">
+                    <context context-type="sourcefile">src/app/privacy/privacy.component.html</context>
+                    <context context-type="linenumber">66,68</context>
+                </context-group>
+            </trans-unit>
+            <trans-unit id="5130854623127799164" datatype="html">
+                <source>We delete personal data in accordance with legal requirements once the underlying consent is
+                    revoked or the legal bases no longer apply (e.g., when the purpose for processing no longer exists,
+                    or the data is no longer necessary).
+                </source>
+                <context-group purpose="location">
+                    <context context-type="sourcefile">src/app/privacy/privacy.component.html</context>
+                    <context context-type="linenumber">69,71</context>
+                </context-group>
+            </trans-unit>
+            <trans-unit id="7380997257909221363" datatype="html">
+                <source><x id="START_TAG_STRONG" ctype="x-strong" equiv-text="&lt;strong&gt;"/>Right to Object:
+                    <x id="CLOSE_TAG_STRONG" ctype="x-strong" equiv-text="&lt;/strong&gt;"/>
+                    You have the right to object to the processing of your personal data at any time for reasons arising
+                    from your particular situation.
+                </source>
+                <context-group purpose="location">
+                    <context context-type="sourcefile">src/app/privacy/privacy.component.html</context>
+                    <context context-type="linenumber">73,74</context>
+                </context-group>
+            </trans-unit>
+            <trans-unit id="1482671776512770829" datatype="html">
+                <source><x id="START_TAG_STRONG" ctype="x-strong" equiv-text="&lt;strong&gt;"/>Right to Withdraw
+                    Consent:
+                    <x id="CLOSE_TAG_STRONG" ctype="x-strong" equiv-text="&lt;/strong&gt;"/>
+                    You can withdraw your consent at any time.
+                </source>
+                <context-group purpose="location">
+                    <context context-type="sourcefile">src/app/privacy/privacy.component.html</context>
+                    <context context-type="linenumber">74,75</context>
+                </context-group>
+            </trans-unit>
+            <trans-unit id="282029481643429802" datatype="html">
+                <source><x id="START_TAG_STRONG" ctype="x-strong" equiv-text="&lt;strong&gt;"/>Right to Access:
+                    <x id="CLOSE_TAG_STRONG" ctype="x-strong" equiv-text="&lt;/strong&gt;"/>
+                    You have the right to request confirmation of whether data concerning you is being processed.
+                </source>
+                <context-group purpose="location">
+                    <context context-type="sourcefile">src/app/privacy/privacy.component.html</context>
+                    <context context-type="linenumber">75,78</context>
+                </context-group>
+            </trans-unit>
+            <trans-unit id="81971783234036112" datatype="html">
+                <source>We process the data of users to provide our online services.</source>
+                <context-group purpose="location">
+                    <context context-type="sourcefile">src/app/privacy/privacy.component.html</context>
+                    <context context-type="linenumber">79,81</context>
+                </context-group>
+            </trans-unit>
+            <trans-unit id="915355979210918808" datatype="html">
+                <source>Cookies are small text files that store information on devices and allow specific functions,
+                    such as login status or shopping cart contents, to be retained.
+                </source>
+                <context-group purpose="location">
+                    <context context-type="sourcefile">src/app/privacy/privacy.component.html</context>
+                    <context context-type="linenumber">82,84</context>
+                </context-group>
+            </trans-unit>
+            <trans-unit id="5569594487208942794" datatype="html">
+                <source>When contacting us (e.g., via post, contact form, email, telephone, or social media), we process
+                    the information provided to handle the inquiry.
+                </source>
+                <context-group purpose="location">
+                    <context context-type="sourcefile">src/app/privacy/privacy.component.html</context>
+                    <context context-type="linenumber">85,87</context>
+                </context-group>
+            </trans-unit>
+            <trans-unit id="8856623426956172301" datatype="html">
+                <source><x id="START_LINK" ctype="x-a"
+                           equiv-text="&lt;a href=&quot;https://datenschutz-generator.de/&quot; title=&quot;Generated with Dr. Thomas Schwenke&apos;s free privacy generator&quot; target=&quot;_blank&quot; rel=&quot;noopener noreferrer nofollow&quot;&gt;"/>
+                    Generated with the free Privacy Policy Generator by Dr. Thomas Schwenke
+                    <x id="CLOSE_LINK" ctype="x-a" equiv-text="&lt;/a&gt;"/>
+                </source>
+                <context-group purpose="location">
+                    <context context-type="sourcefile">src/app/privacy/privacy.component.html</context>
+                    <context context-type="linenumber">87,89</context>
+                </context-group>
+            </trans-unit>
+            <trans-unit id="4550958265168690830" datatype="html">
+                <source>Logo</source>
+                <context-group purpose="location">
+                    <context context-type="sourcefile">src/app/shared/header/header.component.html</context>
+                    <context context-type="linenumber">4,5</context>
+                </context-group>
+                <note priority="1" from="description">Scroll to top and redirect</note>
+            </trans-unit>
+            <trans-unit id="2243247192921316145" datatype="html">
+                <source>German flag</source>
+                <context-group purpose="location">
+                    <context context-type="sourcefile">src/app/shared/header/header.component.html</context>
+                    <context context-type="linenumber">5,6</context>
+                </context-group>
+                <note priority="1" from="description">Switch to German</note>
+            </trans-unit>
+            <trans-unit id="8567558812389004076" datatype="html">
+                <source>English flag</source>
+                <context-group purpose="location">
+                    <context context-type="sourcefile">src/app/shared/header/header.component.html</context>
+                    <context context-type="linenumber">6,7</context>
+                </context-group>
+                <note priority="1" from="description">Switch to English</note>
+            </trans-unit>
+            <trans-unit id="1994010229911224114" datatype="html">
+                <source>Menu icon</source>
+                <context-group purpose="location">
+                    <context context-type="sourcefile">src/app/shared/header/header.component.html</context>
+                    <context context-type="linenumber">7,9</context>
+                </context-group>
+                <note priority="1" from="description">Open menu</note>
+            </trans-unit>
+        </body>
+    </file>
+</xliff>
