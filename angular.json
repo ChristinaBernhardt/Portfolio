@@ -4,6 +4,12 @@
   "newProjectRoot": "projects",
   "projects": {
     "Portfolio": {
+      "i18n": {
+        "sourceLocale": "en-US",
+        "locales": {
+          "de": { "translation":"src/locale/messages.de.xlf"}
+        }
+      },
       "projectType": "application",
       "schematics": {
         "@schematics/angular:component": {
@@ -17,11 +23,13 @@
         "build": {
           "builder": "@angular-devkit/build-angular:application",
           "options": {
+            "localize": true,
             "outputPath": "dist/portfolio",
             "index": "src/index.html",
             "browser": "src/main.ts",
             "polyfills": [
-              "zone.js"
+              "zone.js",
+              "@angular/localize/init"
             ],
             "tsConfig": "tsconfig.app.json",
             "inlineStyleLanguage": "scss",
@@ -55,7 +63,12 @@
             "development": {
               "optimization": false,
               "extractLicenses": false,
-              "sourceMap": true
+              "sourceMap": true   },
+            "en-US": {
+              "localize": ["en-US"]
+            },
+            "de": {
+              "localize": ["de"]
             }
           },
           "defaultConfiguration": "production"
@@ -68,6 +81,14 @@
             },
             "development": {
               "buildTarget": "Portfolio:build:development"
+            },
+
+
+            "en-US": {
+              "buildTarget": "Portfolio:build:development,en-US"
+            },
+            "de": {
+              "buildTarget": "Portfolio:build:development,de"
             }
           },
           "defaultConfiguration": "development"
@@ -80,7 +101,8 @@
           "options": {
             "polyfills": [
               "zone.js",
-              "zone.js/testing"
+              "zone.js/testing",
+              "@angular/localize/init"
             ],
             "tsConfig": "tsconfig.spec.json",
             "inlineStyleLanguage": "scss",

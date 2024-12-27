@@ -1,5 +1,5 @@
 import {Component, ViewChild} from '@angular/core';
-import {NgForm, FormsModule} from '@angular/forms';
+import {FormsModule, NgForm} from '@angular/forms';
 import {NgIf} from "@angular/common";
 
 @Component({
@@ -15,12 +15,7 @@ export class ContactComponent {
   @ViewChild('contactForm', {static: true}) contactForm!: NgForm; // Formular-Referenz
 
   onSubmit() {
-    console.log('Form submitted');
-
-    // Dialog anzeigen
     this.showDialog = true;
-
-    // Dialog nach 3 Sekunden schließen und Formular zurücksetzen
     setTimeout(() => {
       this.showDialog = false;
       if (this.contactForm) {
