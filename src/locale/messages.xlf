@@ -428,7 +428,7 @@
                 </context-group>
             </trans-unit>
             <trans-unit id="3050479057906929993" datatype="html">
-                <source>Project description goes here. Replace this text with a description of your project or work.
+                <source>A web app project management tool for clear visualization of task statuses and responsibilities.
                 </source>
                 <context-group purpose="location">
                     <context context-type="sourcefile">src/app/maincontent/portfolio/portfolio.component.html</context>
@@ -443,7 +443,7 @@
                 </context-group>
             </trans-unit>
             <trans-unit id="1771029717258503475" datatype="html">
-                <source>Another project description. Replace this text with your custom content.</source>
+                <source>An API integration for a Pokémon Trainer Registry to efficiently manage and retrieve trainer data.</source>
                 <context-group purpose="location">
                     <context context-type="sourcefile">src/app/maincontent/portfolio/portfolio.component.html</context>
                     <context context-type="linenumber">58,59</context>

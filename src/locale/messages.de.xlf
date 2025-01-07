@@ -961,9 +961,10 @@
                 </context-group>
             </trans-unit>
 
-            <trans-unit id="3050479057906929993" datatype="html">
+            <trans-unit id="1337497127252025017" datatype="html">
                 <source>Project description goes here. Replace this text with a description of your project or work.</source>
-                <target>Projektbeschreibung folgt hier. Ersetze diesen Text durch eine Beschreibung deines Projekts oder deiner Arbeit.</target>
+                <target>
+                  Eine API-Anbindung für ein Pokémon-Trainer-Register, um Trainerdaten effizient zu verwalten und abzurufen.</target>
                 <context-group purpose="location">
                     <context context-type="sourcefile">src/app/maincontent/portfolio/portfolio.component.html</context>
                     <context context-type="linenumber">43,44</context>
@@ -972,16 +973,16 @@
 
             <trans-unit id="8307140841776883735" datatype="html">
                 <source>Join</source>
-                <target>Tritt bei</target>
+                <target>Join</target>
                 <context-group purpose="location">
                     <context context-type="sourcefile">src/app/maincontent/portfolio/portfolio.component.html</context>
                     <context context-type="linenumber">52,53</context>
                 </context-group>
             </trans-unit>
 
-            <trans-unit id="1771029717258503475" datatype="html">
-                <source>Another project description. Replace this text with your custom content.</source>
-                <target>Eine weitere Projektbeschreibung. Ersetze diesen Text mit deinem benutzerdefinierten Inhalt.</target>
+            <trans-unit id="5793295469008250697" datatype="html">
+                <source>A web app project management tool for clear visualization of task statuses and responsibilities.</source>
+                <target>Ein Web-App-Projektmanagement-Tool zur übersichtlichen Visualisierung von Aufgabenstatus und Verantwortlichkeiten.</target>
                 <context-group purpose="location">
                     <context context-type="sourcefile">src/app/maincontent/portfolio/portfolio.component.html</context>
                     <context context-type="linenumber">58,59</context>

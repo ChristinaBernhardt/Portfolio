@@ -16,17 +16,17 @@ export class PortfolioComponent implements OnInit {
 
   sectionsData = [
     {
-      imgSrc: '/assets/startscreen_1-min.png',
+      imgSrc: '/assets/ElPolloLoco.png',
       textId: 'elPolloLocoText',
       imgWidth: '400px',
     },
     {
-      imgSrc: 'https://via.placeholder.com/400',
+      imgSrc: '/assets/Join.png',
       textId: 'pokedexText',
       imgWidth: '300px',
     },
     {
-      imgSrc: 'https://via.placeholder.com/400',
+      imgSrc: '/assets/Pokedex.png',
       textId: 'joinText',
       imgWidth: '400px',
     },
@@ -38,5 +38,21 @@ export class PortfolioComponent implements OnInit {
 
   getTemplate(textId: string): TemplateRef<any> | null {
     return this[textId as keyof this] as TemplateRef<any> | null;
+  }
+
+  openGithub() {
+    window.open('https://github.com/ChristinaBernhardt', '_blank');
+  }
+
+  openPolloLoco() {
+    window.open('https://christina-bernhardt.developerakademie.net/ElPolloLoco', '_blank');
+  }
+
+  openPokedex() {
+    window.open('https://christina-bernhardt.developerakademie.net/Pokedex', '_blank');
+  }
+
+  openJoin() {
+    window.open('https://christina-bernhardt.developerakademie.net/Join', '_blank');
   }
 }
