@@ -5,9 +5,15 @@
   "projects": {
     "Portfolio": {
       "i18n": {
-        "sourceLocale": "en-US",
+        "sourceLocale": {
+          "code": "en-US",
+          "baseHref": "/Portfolio/en-US/"
+        },
+
         "locales": {
-          "de": { "translation":"src/locale/messages.de.xlf"}
+          "de": {
+            "baseHref": "/Portfolio/de/",
+            "translation":"src/locale/messages.de.xlf"}
         }
       },
       "projectType": "application",

@@ -16,17 +16,17 @@ export class PortfolioComponent implements OnInit {
 
   sectionsData = [
     {
-      imgSrc: '/assets/ElPolloLoco.png',
+      imgSrc: 'assets/ElPolloLoco.png',
       textId: 'elPolloLocoText',
       imgWidth: '400px',
     },
     {
-      imgSrc: '/assets/Join.png',
+      imgSrc: 'assets/Join.png',
       textId: 'pokedexText',
       imgWidth: '300px',
     },
     {
-      imgSrc: '/assets/Pokedex.png',
+      imgSrc: 'assets/Pokedex.png',
       textId: 'joinText',
       imgWidth: '400px',
     },
