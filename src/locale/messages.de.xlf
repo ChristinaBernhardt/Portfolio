@@ -776,7 +776,7 @@
                     <context context-type="linenumber">69,71</context>
                 </context-group>
             </trans-unit>
-            <trans-unit id="7380997257909221363" datatype="html">
+            <trans-unit id="3862767379060247659" datatype="html">
                 <source><x id="START_TAG_STRONG" ctype="x-strong" equiv-text="&lt;strong&gt;"/>Right to Object:
                     <x id="CLOSE_TAG_STRONG" ctype="x-strong" equiv-text="&lt;/strong&gt;"/>
                     You have the right to object to the processing of your personal data at any time for reasons arising
@@ -808,7 +808,7 @@
                     <context context-type="linenumber">74,75</context>
                 </context-group>
             </trans-unit>
-            <trans-unit id="282029481643429802" datatype="html">
+            <trans-unit id="6598780316515270544" datatype="html">
                 <source><x id="START_TAG_STRONG" ctype="x-strong" equiv-text="&lt;strong&gt;"/>Right to Access:
                     <x id="CLOSE_TAG_STRONG" ctype="x-strong" equiv-text="&lt;/strong&gt;"/>
                     You have the right to request confirmation of whether data concerning you is being processed.
@@ -889,7 +889,7 @@
                     <context context-type="linenumber">13,14</context>
                 </context-group>
             </trans-unit>
-            <trans-unit id="4218173861721406672" datatype="html">
+            <trans-unit id="940805114698026711" datatype="html">
                 <source>Don`t see the skill you need?
                     <x id="START_LINK" ctype="x-a"
                        equiv-text="&lt;a href=&quot;#contact&quot; class=&quot;link&quot;&gt;"/>

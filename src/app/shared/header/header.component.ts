@@ -8,11 +8,12 @@
 
 import {Component} from '@angular/core';
 import {Router, RouterModule} from '@angular/router';
+import {NgOptimizedImage} from "@angular/common";
 
 @Component({
   selector: 'app-header',
   standalone: true,  // This is a standalone component
-  imports: [RouterModule],  // Imports Angular RouterModule and optimized image handling
+  imports: [RouterModule, NgOptimizedImage],  // Imports Angular RouterModule and optimized image handling
   templateUrl: './header.component.html',
   styleUrls: ['./header.component.scss']
 })
@@ -49,5 +50,13 @@ export class HeaderComponent {
     if (menu) {
       menu.style.display = menu.style.display === 'block' ? 'none' : 'block';
     }
+  }
+
+  openExternalWebsiteDe() {
+    window.location.href = 'https://www.christina-bernhardt.com/Portfolio/de';
+  }
+
+  openExternalWebsiteEn() {
+  window.location.href = 'https://www.christina-bernhardt.com/Portfolio/en-US';
   }
 }
