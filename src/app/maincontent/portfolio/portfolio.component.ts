@@ -1,6 +1,14 @@
-import { Component, OnInit, TemplateRef, ViewChild } from '@angular/core';
-import { CommonModule } from '@angular/common';
-import { RouterModule } from '@angular/router';
+/**
+ * @module PortfolioComponent
+ * @description
+ * The PortfolioComponent displays a portfolio of projects, each with an image, description,
+ * and links to external resources. It includes functionality to dynamically retrieve templates
+ * and navigate to project-specific URLs.
+ */
+
+import {Component, OnInit, TemplateRef, ViewChild} from '@angular/core';
+import {CommonModule} from '@angular/common';
+import {RouterModule} from '@angular/router';
 
 @Component({
   selector: 'app-portfolio',
@@ -10,10 +18,28 @@ import { RouterModule } from '@angular/router';
   styleUrls: ['./portfolio.component.scss'],
 })
 export class PortfolioComponent implements OnInit {
-  @ViewChild('elPolloLocoText', { static: true }) elPolloLocoText!: TemplateRef<any>;
-  @ViewChild('pokedexText', { static: true }) pokedexText!: TemplateRef<any>;
-  @ViewChild('joinText', { static: true }) joinText!: TemplateRef<any>;
+  /**
+   * Template reference for the "El Pollo Loco" project description.
+   * @type {TemplateRef<any>}
+   */
+  @ViewChild('elPolloLocoText', {static: true}) elPolloLocoText!: TemplateRef<any>;
 
+  /**
+   * Template reference for the "Pokedex" project description.
+   * @type {TemplateRef<any>}
+   */
+  @ViewChild('pokedexText', {static: true}) pokedexText!: TemplateRef<any>;
+
+  /**
+   * Template reference for the "Join" project description.
+   * @type {TemplateRef<any>}
+   */
+  @ViewChild('joinText', {static: true}) joinText!: TemplateRef<any>;
+
+  /**
+   * Data for the portfolio sections, including image source, text template ID, and image width.
+   * @type {Array<{ imgSrc: string, textId: string, imgWidth: string }>}
+   */
   sectionsData = [
     {
       imgSrc: 'assets/ElPolloLoco.png',
@@ -32,27 +58,53 @@ export class PortfolioComponent implements OnInit {
     },
   ];
 
-  constructor() {}
+  /**
+   * Initializes the PortfolioComponent.
+   */
+  constructor() {
+  }
 
-  ngOnInit(): void {}
+  /**
+   * Lifecycle hook that is called after the component is initialized.
+   */
+  ngOnInit(): void {
+  }
 
+  /**
+   * Retrieves the template associated with the given text ID.
+   *
+   * @param {string} textId - The ID of the text template to retrieve.
+   * @returns {TemplateRef<any> | null} - The matching template or null if not found.
+   */
   getTemplate(textId: string): TemplateRef<any> | null {
     return this[textId as keyof this] as TemplateRef<any> | null;
   }
 
-  openGithub() {
+  /**
+   * Opens the GitHub profile in a new browser tab.
+   */
+  openGithub(): void {
     window.open('https://github.com/ChristinaBernhardt', '_blank');
   }
 
-  openPolloLoco() {
+  /**
+   * Opens the "El Pollo Loco" project in a new browser tab.
+   */
+  openPolloLoco(): void {
     window.open('https://christina-bernhardt.developerakademie.net/ElPolloLoco', '_blank');
   }
 
-  openPokedex() {
+  /**
+   * Opens the "Pokedex" project in a new browser tab.
+   */
+  openPokedex(): void {
     window.open('https://christina-bernhardt.developerakademie.net/Pokedex', '_blank');
   }
 
-  openJoin() {
+  /**
+   * Opens the "Join" project in a new browser tab.
+   */
+  openJoin(): void {
     window.open('https://christina-bernhardt.developerakademie.net/Join', '_blank');
   }
 }

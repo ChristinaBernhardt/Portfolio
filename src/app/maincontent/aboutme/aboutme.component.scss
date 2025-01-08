@@ -2,21 +2,22 @@
 @import "../../../style/variables.scss";
 
 .about-me {
-display: flex;
+  display: flex;
   flex-direction: column;
-padding-left: 50px;
+  padding-left: 50px;
   padding-right: 50px;
   height: 700px;
   justify-content: space-evenly;
 
- p{
+  p {
     font-size: 22px;
     font-family: $font-family-overpass;
     font-weight: 400;
   }
 
 }
-.about-me-2{
+
+.about-me-2 {
   display: flex;
 }
 
@@ -34,13 +35,14 @@ padding-left: 50px;
   height: 100%;
   padding-right: 10px
 }
-.about-me-left{
+
+.about-me-left {
   display: flex;
   height: 40px;
   gap: 8px
 }
 
-.button-container{
+.button-container {
   display: flex;
   justify-content: center;
   width: 213px;
@@ -50,8 +52,9 @@ padding-left: 50px;
   font-size: 23px;
   background-color: #FFFCF3;
   text-align: center;
-align-items: center;
-  &:hover{
+  align-items: center;
+
+  &:hover {
     background-color: #00BC8F;
     color: #FFFCF3;
     cursor: pointer;

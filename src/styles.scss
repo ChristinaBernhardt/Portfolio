@@ -2,7 +2,7 @@
 @import "./style/fonts.scss";
 @import "./style/variables.scss";
 
-app-root{
+app-root {
   min-height: 100vh;
   display: flex;
   flex-direction: column;
@@ -28,13 +28,13 @@ html {
   }
 }
 
-.text{
+.text {
   font-family: $font-family-overpass;
   font-size: 22px;
   font-weight: 400;
 }
 
-.img{
+.img {
   padding-right: 10px;
   display: flex;
   flex-direction: row;
@@ -57,8 +57,8 @@ body {
   min-height: calc(100vh - 92px); /* Use min-height instead of height */
 }
 
-.hover{
-  &:hover{
+.hover {
+  &:hover {
     cursor: pointer;
   }
 }
@@ -76,7 +76,7 @@ footer {
   color: #00BC8F;
 }
 
-.display-center{
+.display-center {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -105,7 +105,7 @@ h4 {
   font-family: $font-family-overpass;
 }
 
-p{
+p {
   margin-block-start: 0.5em;
   margin-block-end: 0.5em;
 }

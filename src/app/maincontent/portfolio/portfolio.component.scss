@@ -1,83 +1,83 @@
-    h4{
-        font-family: 'Overpass';
-        font-size: 22px;
-        font-weight: 400;
+h4 {
+  font-family: 'Overpass';
+  font-size: 22px;
+  font-weight: 400;
+}
+
+.section-container {
+  width: 80%;
+  margin: 50px auto;
+  text-align: center;
+
+  .main-heading {
+    font-size: 36px;
+    color: #333;
+    margin-bottom: 40px;
+  }
+
+  .section-item {
+    display: flex;
+    justify-content: space-between;
+    margin: 50px 0;
+    align-items: center;
+
+    &.reverse {
+      flex-direction: row-reverse;
     }
 
-    .section-container {
-        width: 80%;
-        margin: 50px auto;
-        text-align: center;
+    .section-image,
+    .section-text {
+      width: 45%;
+    }
 
-        .main-heading {
-          font-size: 36px;
-          color: #333;
-          margin-bottom: 40px;
+    .section-image img {
+      width: 100%;
+      border-radius: 8px;
+    }
+
+    .section-text {
+      text-align: left;
+      font-size: 18px;
+      line-height: 1.6;
+      margin: 0 20px;
+
+      h1 {
+        font-size: 28px;
+        margin: 10px 0;
+      }
+
+      h3 {
+        font-size: 18px;
+        font-weight: normal;
+      }
+
+      .tags {
+        margin: 10px 0;
+
+        span {
+          margin-right: 5px;
         }
+      }
 
-        .section-item {
-          display: flex;
-          justify-content: space-between;
-          margin: 50px 0;
-          align-items: center;
+      p {
+        margin: 10px 0 20px;
+      }
 
-          &.reverse {
-            flex-direction: row-reverse;
-          }
+      .buttons {
+        button {
+          padding: 10px 20px;
+          margin: 0 10px;
+          border: 1px solid #ccc;
+          background: transparent;
+          cursor: pointer;
+          transition: all 0.3s ease-in-out;
 
-          .section-image,
-          .section-text {
-            width: 45%;
-          }
-
-          .section-image img {
-            width: 100%;
-            border-radius: 8px;
-          }
-
-          .section-text {
-            text-align: left;
-            font-size: 18px;
-            line-height: 1.6;
-            margin: 0 20px;
-
-            h1 {
-              font-size: 28px;
-              margin: 10px 0;
-            }
-
-            h3 {
-              font-size: 18px;
-              font-weight: normal;
-            }
-
-            .tags {
-              margin: 10px 0;
-
-              span {
-                margin-right: 5px;
-              }
-            }
-
-            p {
-              margin: 10px 0 20px;
-            }
-
-            .buttons {
-              button {
-                padding: 10px 20px;
-                margin: 0 10px;
-                border: 1px solid #ccc;
-                background: transparent;
-                cursor: pointer;
-                transition: all 0.3s ease-in-out;
-
-                &:hover {
-                  background-color: #333;
-                  color: #fff;
-                }
-              }
-            }
+          &:hover {
+            background-color: #333;
+            color: #fff;
           }
         }
       }
+    }
+  }
+}

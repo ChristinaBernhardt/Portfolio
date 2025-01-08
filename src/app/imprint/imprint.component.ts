@@ -1,4 +1,11 @@
-import { Component } from '@angular/core';
+/**
+ * @module ImprintComponent
+ * @description
+ * The ImprintComponent handles the display of the imprint page and provides functionality
+ * to scroll to the top of the page and navigate to the homepage.
+ */
+
+import {Component} from '@angular/core';
 import {Router} from "@angular/router";
 
 @Component({
@@ -9,11 +16,26 @@ import {Router} from "@angular/router";
   styleUrl: './imprint.component.scss'
 })
 export class ImprintComponent {
+  /**
+   * A reference to the global `window` object.
+   * Used for performing actions like scrolling.
+   * @private
+   */
   private windowRef: Window = window;
 
-  constructor(private router: Router) {}
+  /**
+   * Creates an instance of the ImprintComponent.
+   *
+   * @param {Router} router - Angular Router for navigation.
+   */
+  constructor(private router: Router) {
+  }
 
-  scrollToTopAndRedirect() {
-    this.windowRef.scrollTo({ top: 0, behavior: 'smooth' });
+  /**
+   * Scrolls the page to the top with a smooth animation and redirects to the homepage.
+   */
+  scrollToTopAndRedirect(): void {
+    this.windowRef.scrollTo({top: 0, behavior: 'smooth'});
     this.router.navigateByUrl('/');
-  }}
+  }
+}
