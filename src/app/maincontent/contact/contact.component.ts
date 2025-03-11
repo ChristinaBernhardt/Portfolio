@@ -5,9 +5,10 @@
  * display a confirmation dialog, and reset the form after submission.
  */
 
-import {Component, ViewChild} from '@angular/core';
+import {Component, inject, ViewChild} from '@angular/core';
 import {FormsModule, NgForm} from '@angular/forms';
 import {NgIf} from "@angular/common";
+import {HttpClient} from "@angular/common/http";
 
 @Component({
   selector: 'app-contact',
@@ -22,6 +23,14 @@ export class ContactComponent {
    * @type {boolean}
    */
   showDialog = false;
+http = inject(HttpClient);
+  contactData = {
+    name: "",
+    email: "",
+    message: "",
+
+  }
+
 
   /**
    * Reference to the contact form in the template.
@@ -34,13 +43,38 @@ export class ContactComponent {
    * Handles the submission of the contact form.
    * Displays a confirmation dialog for 3 seconds, then hides it and resets the form.
    */
-  onSubmit(): void {
-    this.showDialog = true;
-    setTimeout(() => {
-      this.showDialog = false;
-      if (this.contactForm) {
-        this.contactForm.resetForm(); // Reset the form after submission
-      }
-    }, 3000);
+
+
+
+  mailTest = true;
+
+  post = {
+    endPoint: 'https://deineDomain.de/sendMail.php',
+    body: (payload: any) => JSON.stringify(payload),
+    options: {
+      headers: {
+        'Content-Type': 'text/plain',
+        responseType: 'text',
+      },
+    },
+  };
+
+  onSubmit(ngForm: NgForm) {
+    if (ngForm.submitted && ngForm.form.valid && !this.mailTest) {
+      this.http.post(this.post.endPoint, this.post.body(this.contactData))
+        .subscribe({
+          next: (response) => {
+
+            ngForm.resetForm();
+          },
+          error: (error) => {
+            console.error(error);
+          },
+          complete: () => console.info('send post complete'),
+        });
+    } else if (ngForm.submitted && ngForm.form.valid && this.mailTest) {
+
+      ngForm.resetForm();
+    }
   }
 }
