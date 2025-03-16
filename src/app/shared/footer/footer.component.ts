@@ -7,11 +7,13 @@
  */
 
 import {Component} from '@angular/core';
+import { CommonModule } from '@angular/common';
+import { RouterModule } from '@angular/router'; // <- WICHTIG! Hinzufügen
 
 @Component({
   selector: 'app-footer',
   standalone: true,  // This is a standalone component
-  imports: [],  // No additional modules are imported
+  imports: [CommonModule, RouterModule],  // No additional modules are imported
   templateUrl: './footer.component.html',
   styleUrl: './footer.component.scss'
 })

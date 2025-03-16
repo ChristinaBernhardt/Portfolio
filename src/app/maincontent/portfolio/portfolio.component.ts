@@ -6,7 +6,7 @@
  * and navigate to project-specific URLs.
  */
 
-import {Component, OnInit, TemplateRef, ViewChild} from '@angular/core';
+import {Component, OnInit, TemplateRef, ViewChild, AfterViewInit} from '@angular/core';
 import {CommonModule} from '@angular/common';
 import {RouterModule} from '@angular/router';
 
@@ -17,7 +17,7 @@ import {RouterModule} from '@angular/router';
   templateUrl: './portfolio.component.html',
   styleUrls: ['./portfolio.component.scss'],
 })
-export class PortfolioComponent implements OnInit {
+export class PortfolioComponent implements OnInit, AfterViewInit {
   /**
    * Template reference for the "El Pollo Loco" project description.
    * @type {TemplateRef<any>}
@@ -69,7 +69,25 @@ export class PortfolioComponent implements OnInit {
    */
   ngOnInit(): void {
   }
+ngAfterViewInit(): void {
+  const images = document.querySelectorAll('.section-image img');
 
+  console.log('Gefundene Bilder:', images);
+
+  const observer = new IntersectionObserver(
+    (entries) => {
+      entries.forEach((entry) => {
+        if (entry.isIntersecting) {
+          entry.target.classList.add('show');
+          observer.unobserve(entry.target); // Nach dem ersten Einblenden nicht mehr beobachten
+        }
+      });
+    },
+    { threshold: 0.2 } // Animation startet, wenn 20% des Bildes sichtbar sind
+  );
+
+  images.forEach((img) => observer.observe(img));
+}
   /**
    * Retrieves the template associated with the given text ID.
    *
