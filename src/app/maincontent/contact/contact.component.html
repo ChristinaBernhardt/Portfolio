@@ -51,7 +51,7 @@
             required
           />
           <label i18n>
-            I've read the <a href="privacy" class="link">privacy policy</a> and
+            I've read the <a [routerLink]="'/privacy'" href="privacy" class="link">privacy policy</a> and
             agree to the processing of my data.
           </label>
         </div>
@@ -63,7 +63,6 @@
     </div>
   </div>
 
-  <!-- Dialog -->
   <div class="dialog" *ngIf="showDialog">
     <div class="dialog-content">
       <p i18n>Thank you for your email!</p>

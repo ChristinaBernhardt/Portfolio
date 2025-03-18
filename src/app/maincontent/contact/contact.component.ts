@@ -9,11 +9,12 @@ import {Component, inject, ViewChild} from '@angular/core';
 import {FormsModule, NgForm} from '@angular/forms';
 import {NgIf} from "@angular/common";
 import {HttpClient} from "@angular/common/http";
+import {RouterLink} from "@angular/router";
 
 @Component({
   selector: 'app-contact',
   standalone: true,  // This is a standalone component
-  imports: [FormsModule, NgIf],  // Required Angular modules
+  imports: [FormsModule, NgIf, RouterLink],  // Required Angular modules
   templateUrl: './contact.component.html',
   styleUrls: ['./contact.component.scss']
 })
@@ -73,7 +74,8 @@ http = inject(HttpClient);
           complete: () => console.info('send post complete'),
         });
     } else if (ngForm.submitted && ngForm.form.valid && this.mailTest) {
-
+      this.showDialog = true;
+      setTimeout(() => this.showDialog = false, 3000);
       ngForm.resetForm();
     }
   }
