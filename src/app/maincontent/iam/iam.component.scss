@@ -1,4 +1,3 @@
-
 .section-iam {
   display: flex;
   flex-direction: column;
@@ -13,15 +12,24 @@
   justify-content: center;
 
   .line {
-    width: 30vw; // Länge des Strichs
-    height: 4px; // Dicke des Strichs
+    width: 30vw;
+    height: 4px;
     background-color: black;
-    margin-right: 10px; // Abstand zwischen Strich und Text
+    margin-right: 10px;
   }
 
   .name {
     color: #00BC8F;
     font-weight: bold;
-    font-size: 56px; // Textgröße
+    font-size: 56px;
   }
+}
+
+
+@media (max-width 700px) {
+  .section-iam {
+    height: 30vh;
+  }
+
+
 }

@@ -1,47 +1,44 @@
 
 .about-me {
-    width: 100%;
-    box-sizing: border-box;
+  width: 100%;
+  box-sizing: border-box;
   display: flex;
   flex-direction: column;
   padding-left: 50px;
   padding-right: 50px;
   height: 700px;
   justify-content: space-evenly;
-   border: 1px solid black;
+
 
   p {
     font-size: 22px;
     font-family: 'Overpass';
     font-weight: 400;
   }
-
 }
 
 .about-me-2 {
   display: grid;
-  grid-template-columns: 1fr 1fr; /* Zwei gleich große Spalten */
-  gap: 20px; /* Abstand zwischen den Spalten */
-  align-items: center; /* Vertikale Zentrierung */
-  border: 1px solid red;
+  grid-template-columns: 1fr 1fr;
+  gap: 20px;
+  align-items: center;
 }
+
 .about-me-text {
   font-size: 34px;
-display: flex;
+  display: flex;
   flex-direction: column;
-  border: 1px solid green;
 }
 
 .about-me-img {
-  font-size: 34px;
-display: flex;
+  display: flex;
   flex-direction: column;
-  border: 1px solid green;
+  margin: 0 auto;
+  margin-top: -200px;
+  margin-bottom: -200px;
+  width: 70vw;
+  max-width: 800px;
 }
-
-
-
-
 
 .button-container {
   display: flex;
@@ -62,15 +59,29 @@ display: flex;
   }
 }
 
-@media (max-width: 700px) {
+@media (max-width: 1200px) {
+  .about-me {
+    display: flex;
+    flex-direction: column;
+    height: 1100px;
+  }
+}
+
+@media (max-width: 1200px) {
   .about-me-2 {
-    grid-template-columns: 1fr !important; /* Eine Spalte */
-    gap: 15px; /* Optional: Abstand zwischen den Zeilen */
-    text-align: center; /* Zentrierung des Inhalts */
+    display: flex;
+    flex-direction: column; /* Stapelt die Elemente vertikal */
+    align-items: center; /* Zentriert den Inhalt */
   }
 
   .about-me-img {
-    margin: 0 auto; /* Bild zentrieren */
+    order: 2; /* Stellt sicher, dass das Bild nach dem Text kommt */
+    margin-top: 0; /* Entfernt den negativen Margin */
+    margin-bottom: 0;
+  }
+
+  .button-container {
+    order: 1; /* Stellt sicher, dass der Button vor dem Bild ist */
   }
 }
 
