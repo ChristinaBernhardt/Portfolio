@@ -62,7 +62,8 @@ http = inject(HttpClient);
       this.http.post(this.post.endPoint, this.post.body(this.contactData))
         .subscribe({
           next: (response) => {
-
+            this.showDialog = true;
+            setTimeout(() => this.showDialog = false, 3000);
             ngForm.resetForm();
           },
           error: (error) => {
@@ -70,10 +71,10 @@ http = inject(HttpClient);
           },
           complete: () => console.info('send post complete'),
         });
-    } else if (ngForm.submitted && ngForm.form.valid) {
-      this.showDialog = true;
-      setTimeout(() => this.showDialog = false, 3000);
-      ngForm.resetForm();
+      // } else if (ngForm.submitted && ngForm.form.valid) {
+      //   this.showDialog = true;
+      //   setTimeout(() => this.showDialog = false, 3000);
+      //   ngForm.resetForm();
+      // }
     }
-  }
-}
+  }}
