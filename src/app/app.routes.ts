@@ -18,7 +18,8 @@ export const routes: Routes = [
   { path: 'aboutme', component: AboutmeComponent },
   { path: 'skills', component: SkillsComponent },
   { path: 'portfolio', component: PortfolioComponent },
-  {path: 'header', component: HeaderComponent}
+  {path: 'header', component: HeaderComponent},
+  {path: '**', redirectTo: '', pathMatch: 'full'}
 
 
 ];

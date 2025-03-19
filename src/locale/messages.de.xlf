@@ -416,6 +416,42 @@
             </context-group>
             <note priority="1" from="description">Validation message for invalid email input</note>
           </trans-unit>
+          <trans-unit id="7016938571955872918" datatype="html">
+            <source>Please enter your name.</source>
+            <target>Bitte Namen eingeben</target>
+            <context-group purpose="location">
+              <context context-type="sourcefile">src/app/maincontent/contact/contact.component.html</context>
+              <context context-type="linenumber">30</context>
+            </context-group>
+            <note priority="1" from="description">Validation message for invalid email input</note>
+          </trans-unit>
+          <trans-unit id="8461334506005166293" datatype="html">
+            <source>Your name must be at least 5 characters long.</source>
+            <target>Bitte mindestens 5 Zeichen eingeben.</target>
+            <context-group purpose="location">
+              <context context-type="sourcefile">src/app/maincontent/contact/contact.component.html</context>
+              <context context-type="linenumber">30</context>
+            </context-group>
+            <note priority="1" from="description">Validation message for invalid email input</note>
+          </trans-unit>
+          <trans-unit id="147441553335379280" datatype="html">
+            <source>Please enter your message.</source>
+            <target>Bitte Nachricht eingeben.</target>
+            <context-group purpose="location">
+              <context context-type="sourcefile">src/app/maincontent/contact/contact.component.html</context>
+              <context context-type="linenumber">30</context>
+            </context-group>
+            <note priority="1" from="description">Validation message for invalid email input</note>
+          </trans-unit>
+          <trans-unit id="7892778300256865019" datatype="html">
+            <source>Your message must be at least 5 characters long.</source>
+            <target>Bitte mindestens 5 Zeichen eingeben.</target>
+            <context-group purpose="location">
+              <context context-type="sourcefile">src/app/maincontent/contact/contact.component.html</context>
+              <context context-type="linenumber">30</context>
+            </context-group>
+            <note priority="1" from="description">Validation message for invalid email input</note>
+          </trans-unit>
             <trans-unit id="1391056849737890767" datatype="html">
                 <source>Your message</source>
                 <target>Ihre Nachricht</target>

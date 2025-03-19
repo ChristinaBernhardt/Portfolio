@@ -12,10 +12,20 @@
             placeholder="Your name"
             name="name"
             [(ngModel)]="contactData.name"
+            #nameInput="ngModel"
             required
+            minlength="5"
             class="form-control"
             i18n-placeholder="Enter your name"
           />
+          <div *ngIf="nameInput?.invalid && nameInput?.touched" class="error-message">
+    <span *ngIf="nameInput?.errors?.['required']" i18n="Validation message for required name field">
+      Please enter your name.
+    </span>
+            <span *ngIf="nameInput?.errors?.['minlength']" i18n="Validation message for minimum length of name">
+      Your name must be at least 5 characters long.
+    </span>
+          </div>
         </div>
 
         <div class="form-group">
@@ -38,15 +48,24 @@
         </div>
 
         <div class="form-group">
-          <textarea
-            placeholder="Your message"
-            name="message"
-            [(ngModel)]="contactData.message"
-            required
-            class="form-control"
-            i18n-placeholder="Enter your message"
-          ></textarea>
-
+  <textarea
+    placeholder="Your message"
+    name="message"
+    [(ngModel)]="contactData.message"
+    #messageInput="ngModel"
+    required
+    minlength="5"
+    class="form-control"
+    i18n-placeholder="Enter your message"
+  ></textarea>
+          <div *ngIf="messageInput?.invalid && messageInput?.touched" class="error-message">
+    <span *ngIf="messageInput?.errors?.['required']" i18n="Validation message for required message field">
+      Please enter your message.
+    </span>
+            <span *ngIf="messageInput?.errors?.['minlength']" i18n="Validation message for minimum length of message">
+      Your message must be at least 5 characters long.
+    </span>
+          </div>
         </div>
 
         <div class="form-group">
