@@ -46,9 +46,6 @@ http = inject(HttpClient);
    */
 
 
-
-  mailTest = true;
-
   post = {
     endPoint: 'https://christina-bernhardt.com/sendMail.php',
     body: (payload: any) => JSON.stringify(payload),
@@ -61,7 +58,7 @@ http = inject(HttpClient);
   };
 
   onSubmit(ngForm: NgForm) {
-    if (ngForm.submitted && ngForm.form.valid && !this.mailTest) {
+    if (ngForm.submitted && ngForm.form.valid) {
       this.http.post(this.post.endPoint, this.post.body(this.contactData))
         .subscribe({
           next: (response) => {
