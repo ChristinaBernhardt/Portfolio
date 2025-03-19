@@ -50,7 +50,7 @@ http = inject(HttpClient);
   mailTest = true;
 
   post = {
-    endPoint: 'https://deineDomain.de/sendMail.php',
+    endPoint: 'https://christina-bernhardt.com/sendMail.php',
     body: (payload: any) => JSON.stringify(payload),
     options: {
       headers: {
@@ -73,7 +73,7 @@ http = inject(HttpClient);
           },
           complete: () => console.info('send post complete'),
         });
-    } else if (ngForm.submitted && ngForm.form.valid && this.mailTest) {
+    } else if (ngForm.submitted && ngForm.form.valid) {
       this.showDialog = true;
       setTimeout(() => this.showDialog = false, 3000);
       ngForm.resetForm();
