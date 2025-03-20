@@ -69,7 +69,7 @@ export class ContactComponent {
    */
   onSubmit(ngForm: NgForm) {
     if (ngForm.submitted && ngForm.form.valid) {
-      this.http.post(this.post.endPoint, this.post.body(this.contactData))
+      this.http.post(this.post.endPoint, this.erzeugePayload())
         .subscribe({
           next: () => {
             this.showDialog = true;
@@ -84,5 +84,9 @@ export class ContactComponent {
     } else {
       console.warn('Form is invalid');
     }
+  }
+
+  private erzeugePayload() {
+    return JSON.stringify(this.contactData);
   }
 }

@@ -9,6 +9,9 @@ app-root {
   width: 100vw;
 }
 
+* {
+  font-family: var(--font-family-overpass), sans-serif;
+}
 
 html {
   scroll-behavior: smooth;
@@ -28,7 +31,7 @@ html {
 }
 
 .text {
-  font-family: 'Overpass';
+  font-family: var(--font-family-overpass);
   font-size: 22px;
   font-weight: 400;
 }

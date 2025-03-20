@@ -19,9 +19,6 @@ export const routes: Routes = [
   { path: 'skills', component: SkillsComponent },
   { path: 'portfolio', component: PortfolioComponent },
   {path: 'header', component: HeaderComponent},
-  {path: '**', redirectTo: '', pathMatch: 'full'}
-
-
 ];
 
 @NgModule({
