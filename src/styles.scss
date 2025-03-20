@@ -43,7 +43,6 @@ html {
 }
 
 body {
-
   margin-left: 0;
   margin-right: 0;
   margin-bottom: 0;
@@ -55,7 +54,7 @@ body {
   font-weight: 400;
   overflow-y: auto;
   overflow-x: hidden;
-  min-height: calc(100vh - 92px); /* Use min-height instead of height */
+  min-height: calc(100vh - 92px);
 }
 
 .hover {
@@ -115,7 +114,6 @@ p {
   text-align: center;
 }
 
-/* Media Queries for responsiveness */
 @media (max-width: 1200px) {
   h1 {
     font-size: 96px;

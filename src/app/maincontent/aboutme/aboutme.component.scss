@@ -71,18 +71,18 @@
 @media (max-width: 1200px) {
   .about-me-2 {
     display: flex;
-    flex-direction: column; /* Stapelt die Elemente vertikal */
-    align-items: center; /* Zentriert den Inhalt */
+    flex-direction: column;
+    align-items: center;
   }
 
   .about-me-img {
-    order: 2; /* Stellt sicher, dass das Bild nach dem Text kommt */
-    margin-top: 0; /* Entfernt den negativen Margin */
+    order: 2;
+    margin-top: 0;
     margin-bottom: 0;
   }
 
   .button-container {
-    order: 1; /* Stellt sicher, dass der Button vor dem Bild ist */
+    order: 1;
   }
 }
 
