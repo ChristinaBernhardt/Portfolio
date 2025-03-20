@@ -10,7 +10,7 @@ app-root {
 }
 
 * {
-  font-family: var(--font-family-overpass), sans-serif;
+  font-family: 'Overpass';
 }
 
 html {
@@ -31,7 +31,7 @@ html {
 }
 
 .text {
-  font-family: var(--font-family-overpass);
+  font-family: 'Overpass';
   font-size: 22px;
   font-weight: 400;
 }
@@ -51,7 +51,7 @@ body {
   margin-top: 92px;
   color: black;
   background-color: #FFFCF3;
-  font-family: var(--font-family-overpass);
+  font-family: 'Overpass';
   font-size: 22px;
   font-weight: 400;
   overflow-y: auto;
