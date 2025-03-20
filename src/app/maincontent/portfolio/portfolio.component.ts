@@ -125,4 +125,17 @@ ngAfterViewInit(): void {
   openJoin(): void {
     window.open('https://christina-bernhardt.developerakademie.net/Join', '_blank');
   }
+
+  openGithubPolloLoco() {
+    window.open('https://github.com/ChristinaBernhardt/ElPolloLoco', '_blank');
+  }
+
+
+  openGithubJoin() {
+    window.open('https://github.com/ChristinaBernhardt/Join', '_blank');
+  }
+
+  openGithubPokedex() {
+    window.open('https://github.com/ChristinaBernhardt/Pokedex', '_blank');
+  }
 }
