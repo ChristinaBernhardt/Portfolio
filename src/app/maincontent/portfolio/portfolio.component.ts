@@ -109,7 +109,7 @@ ngAfterViewInit(): void {
    * Opens the "El Pollo Loco" project in a new browser tab.
    */
   openPolloLoco(): void {
-    window.open('https://christina-bernhardt.developerakademie.net/ElPolloLoco', '_blank');
+    window.open('https://www.christina-bernhardt.com/ElPolloLoco/', '_blank');
   }
 
   /**
