@@ -7,8 +7,9 @@ header {
   z-index: 1000;
   background-color: #FFFCF3;
   box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
-  //display: flex;
-  //justify-content: space-between;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .header-left {
@@ -30,9 +31,9 @@ header {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  height: 100%;
-  margin-left: 20px;
-  margin-right: 60px;
+  width: 100%;
+  max-width: 1440px;
+  padding: 0 60px;
 }
 
 .header-img {

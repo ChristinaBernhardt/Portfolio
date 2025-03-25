@@ -10,6 +10,10 @@ h2 {
 
 .skills{
   scroll-margin-top: 50px;
+  max-width: 1440px;
+  margin: 0 auto;
+  display: flex;
+  z-index: 1000;
 }
 
 .large-box {

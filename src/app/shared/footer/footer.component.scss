@@ -1,14 +1,23 @@
-
 footer {
+  max-width: 1440px;
+  margin: 0 auto; /* Zentriert den Footer */
+  display: flex;
+  justify-content: center;
+
+  bottom: 0;
+  left: 0;
+  right: 0;
+  z-index: 1000;
+}
+
+.footer {
   width: 96vw;
   display: flex;
   justify-content: space-between;
   padding-left: 2%;
   padding-right: 2%;
   align-items: center;
-  position: fixed;
-  bottom: 0;
-  z-index: 1000;
+
 
 }
 
