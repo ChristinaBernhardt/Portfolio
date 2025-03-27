@@ -138,4 +138,6 @@ ngAfterViewInit(): void {
   openGithubPokedex() {
     window.open('https://github.com/ChristinaBernhardt/Pokedex', '_blank');
   }
+
+
 }

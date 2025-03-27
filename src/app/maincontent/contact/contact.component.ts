@@ -89,4 +89,26 @@ export class ContactComponent {
   private erzeugePayload() {
     return JSON.stringify(this.contactData);
   }
+
+  ngAfterViewInit(): void {
+    const arrow = document.getElementById('backToTopArrow');
+    if (!arrow) return;
+
+    const observer = new IntersectionObserver(
+      (entries) => {
+        entries.forEach((entry) => {
+          if (entry.isIntersecting) {
+            arrow.classList.add('animate');
+            observer.unobserve(entry.target); // nur einmal animieren
+          }
+        });
+      },
+      {
+        root: null,
+        threshold: 0.1,
+      }
+    );
+
+    observer.observe(arrow);
+  }
 }
