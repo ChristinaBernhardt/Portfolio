@@ -19,10 +19,11 @@ export const routes: Routes = [
   { path: 'skills', component: SkillsComponent },
   { path: 'portfolio', component: PortfolioComponent },
   {path: 'header', component: HeaderComponent},
+{ path: '**', redirectTo: '' }
 ];
 
 @NgModule({
-  imports: [RouterModule.forRoot(routes, { scrollPositionRestoration: 'enabled', anchorScrolling: 'enabled' })],
+  imports: [RouterModule.forRoot(routes, { scrollPositionRestoration: 'top', anchorScrolling: 'enabled' })],
   exports: [RouterModule]
 })
 export class AppRoutingModule { }

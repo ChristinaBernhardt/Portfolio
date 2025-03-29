@@ -4,7 +4,7 @@
   justify-content: center;
   align-items: center;
   height: 70vh;
-}
+  }
 
 .name-line {
   display: flex;
@@ -26,10 +26,3 @@
 }
 
 
-@media (max-width 700px) {
-  .section-iam {
-    height: 30vh;
-  }
-
-
-}

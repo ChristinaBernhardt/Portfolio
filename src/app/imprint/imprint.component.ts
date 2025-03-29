@@ -5,7 +5,7 @@
  * to scroll to the top of the page and navigate to the homepage.
  */
 
-import {Component} from '@angular/core';
+import {Component, AfterViewInit} from '@angular/core';
 import {Router} from "@angular/router";
 
 @Component({
@@ -15,7 +15,7 @@ import {Router} from "@angular/router";
   templateUrl: './imprint.component.html',
   styleUrl: './imprint.component.scss'
 })
-export class ImprintComponent {
+export class ImprintComponent implements AfterViewInit{
   /**
    * A reference to the global `window` object.
    * Used for performing actions like scrolling.
@@ -29,6 +29,16 @@ export class ImprintComponent {
    * @param {Router} router - Angular Router for navigation.
    */
   constructor(private router: Router) {
+  }
+
+  /**
+   * Scrolls to top after the view is fully initialized.
+   */
+  ngAfterViewInit(): void {
+    // Delay to ensure DOM is ready
+    setTimeout(() => {
+      this.windowRef.scrollTo({ top: 0, behavior: 'auto' });
+    }, 0);
   }
 
   /**

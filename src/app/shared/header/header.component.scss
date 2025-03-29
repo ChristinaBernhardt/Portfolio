@@ -44,20 +44,20 @@ header {
   }
 }
 
+
 .burger-menu-content {
   display: none;
   position: absolute;
-  padding-top: 100px;
   top: 92px;
-  right: 0px;
-  text-align: center;
-  //right: 10%;
+  right: calc((100vw - 1440px) / 2); // ergibt Abstand zur rechten Content-Kante
   width: 300px;
   height: 270px;
+  padding-top: 100px;
   color: #000;
   background-color: #FFFCF3;
   z-index: 1001;
   overflow: hidden;
+  text-align: center;
   box-shadow: -7px 7px 7px rgba(0, 188, 143, 0.2);
 }
 

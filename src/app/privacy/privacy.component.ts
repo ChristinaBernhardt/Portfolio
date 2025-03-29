@@ -6,15 +6,35 @@
  * about the application's privacy practices.
  */
 
-import {Component} from '@angular/core';
+import { Component, AfterViewInit } from '@angular/core';
+import { Router } from '@angular/router';
 
 @Component({
   selector: 'app-privacy',
-  standalone: true,  // This is a standalone component
-  imports: [],  // No additional modules are imported
+  standalone: true,
+  imports: [],
   templateUrl: './privacy.component.html',
   styleUrl: './privacy.component.scss'
 })
-export class PrivacyComponent {
-  // This component currently has no properties or methods.
+export class PrivacyComponent implements AfterViewInit {
+  private windowRef: Window = window;
+
+  constructor(private router: Router) {}
+
+  /**
+   * Scrolls to top after the view is fully initialized.
+   */
+  ngAfterViewInit(): void {
+    setTimeout(() => {
+      this.windowRef.scrollTo({ top: 0, behavior: 'auto' });
+    }, 0);
+  }
+
+  /**
+   * Scrolls the page to the top with a smooth animation and redirects to the homepage.
+   */
+  scrollToTopAndRedirect(): void {
+    this.windowRef.scrollTo({ top: 0, behavior: 'smooth' });
+    this.router.navigateByUrl('/');
+  }
 }

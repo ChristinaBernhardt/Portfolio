@@ -2,7 +2,25 @@
   <div class="slanted-section">
     <div class="contact-container" style="width: 50vw; margin: 0 auto;">
       <h2 i18n>Say Hi!</h2>
-      <div class="back-to-top-arrow" id="backToTopArrow">ddd</div>
+
+      <div style="position: relative">
+
+        <svg
+          class="back-to-top-arrow"
+          id="backToTopArrow"
+          viewBox="0 0 100 200"
+          style="width: 100px; height: 90px; cursor: pointer; margin-left: 60px;"
+          xmlns="http://www.w3.org/2000/svg"
+          fill="none"
+          onclick="window.scrollTo({ top: 0, behavior: 'smooth' })"
+        >
+          <path d="M50 180V20" stroke="white" stroke-width="6" stroke-linecap="round"/>
+          <path d="M30 50L50 20L70 50" stroke="white" stroke-width="6" stroke-linecap="round" stroke-linejoin="round"/>
+        </svg>
+
+
+
+      </div>
       <h3 i18n>Want to discuss a new project?</h3>
       <p i18n>Say hello! Let’s discuss your ideas and make it happen.</p>
 

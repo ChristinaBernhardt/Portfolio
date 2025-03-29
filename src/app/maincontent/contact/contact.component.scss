@@ -7,7 +7,7 @@
 .back-to-top-arrow {
   position: fixed;
   bottom: 100px;
-  right: 20vw;
+  right: 10vw;
   width: 20px;
   height: 20px;
   color: red;
@@ -67,6 +67,7 @@ h3 {
       width: 100%;
       padding: 0.75rem;
       font-size: 1rem;
+      font-family: "Overpass";
       border: none;
       border-bottom: 2px solid #fff;
       background-color: transparent;
@@ -130,7 +131,6 @@ h3 {
 }
 
 .slanted-section {
-
   background-color: #000; // Setze die Hintergrundfarbe (z. B. Schwarz)
   color: white;
   padding: 50px;

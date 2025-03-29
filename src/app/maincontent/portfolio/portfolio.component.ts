@@ -72,8 +72,6 @@ export class PortfolioComponent implements OnInit, AfterViewInit {
 ngAfterViewInit(): void {
   const images = document.querySelectorAll('.section-image img');
 
-  console.log('Gefundene Bilder:', images);
-
   const observer = new IntersectionObserver(
     (entries) => {
       entries.forEach((entry) => {
