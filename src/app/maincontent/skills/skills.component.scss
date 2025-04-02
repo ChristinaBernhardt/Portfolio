@@ -27,14 +27,19 @@ h2 {
   padding: 4em 0;
   position: relative;
   z-index: 0;
+  @media (max-width: 425px) {
+    height: 1300px;
+
+  }
 }
 
 
 .skills-container {
-  height: 271px;
+  height: 871px;
   margin: 20px auto;
   padding: 10px;
   overflow: hidden;
+
 }
 
 
@@ -54,14 +59,15 @@ h2 {
 }
 
 .skills-icons {
-  width: 40px;
-  height: 40px;
+  width: 50px;
+  height: 50px;
   margin-bottom: 10px;
+
 }
 
 .skills p {
   margin: 0;
-  font-size: 34px;
+  font-size: 36px;
   font-weight: bold;
   text-align: center;
 }
@@ -74,3 +80,36 @@ h2 {
   font-family: 'Overpass', sans-serif;
   font-weight: 400;
 }
+
+@media (max-width: 425px) {
+  .skills {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center; // zentriert die Reihen
+    gap: 20px;
+  }
+
+  .skill-box {
+    width: 30%; // 3 pro Zeile + bisschen Platz
+    padding: 10px;
+  }
+
+  .skills-icons {
+    width: 70px;
+    height: 70px;
+  }
+
+  .skills p {
+    font-size: 24px;
+  }
+
+  .large-box {
+    height: auto; // keine fixe Höhe!
+    padding: 2em 0;
+  }
+
+  .skills-container {
+    height: auto; // auch hier Höhe entfernen
+  }
+}
+

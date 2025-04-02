@@ -77,7 +77,7 @@ ngAfterViewInit(): void {
       entries.forEach((entry) => {
         if (entry.isIntersecting) {
           entry.target.classList.add('show');
-          observer.unobserve(entry.target); // Nach dem ersten Einblenden nicht mehr beobachten
+          observer.unobserve(entry.target);
         }
       });
     },
