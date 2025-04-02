@@ -1,26 +1,7 @@
 <section id="contact">
   <div class="slanted-section">
-    <div class="contact-container" style="width: 50vw; margin: 0 auto;">
+    <div class="contact-container">
       <h2 i18n>Say Hi!</h2>
-
-      <div style="position: relative">
-
-        <svg
-          class="back-to-top-arrow"
-          id="backToTopArrow"
-          viewBox="0 0 100 200"
-          style="width: 100px; height: 90px; cursor: pointer; margin-left: 60px;"
-          xmlns="http://www.w3.org/2000/svg"
-          fill="none"
-          onclick="window.scrollTo({ top: 0, behavior: 'smooth' })"
-        >
-          <path d="M50 180V20" stroke="white" stroke-width="6" stroke-linecap="round"/>
-          <path d="M30 50L50 20L70 50" stroke="white" stroke-width="6" stroke-linecap="round" stroke-linejoin="round"/>
-        </svg>
-
-
-
-      </div>
       <h3 i18n>Want to discuss a new project?</h3>
       <p i18n>Say hello! Let’s discuss your ideas and make it happen.</p>
 
@@ -36,6 +17,7 @@
             minlength="5"
             class="form-control"
             i18n-placeholder="Enter your name"
+            style="font-size: 2rem"
           />
           <div *ngIf="nameInput?.invalid && nameInput?.touched" class="error-message">
     <span *ngIf="nameInput?.errors?.['required']" i18n="Validation message for required name field">
@@ -58,6 +40,7 @@
             class="form-control"
             i18n-placeholder="Enter your email"
             pattern="[a-zA-Z0-9._%+\-]+@[a-zA-Z0-9.\-]+\.[a-zA-Z]{2,}"
+            style="font-size: 2rem"
           />
           <div *ngIf="emailInput?.invalid && emailInput?.touched" class="error-message">
   <span i18n="Validation message for invalid email input">
@@ -76,6 +59,7 @@
     minlength="5"
     class="form-control"
     i18n-placeholder="Enter your message"
+    style="font-size: 2rem"
   ></textarea>
           <div *ngIf="messageInput?.invalid && messageInput?.touched" class="error-message">
     <span *ngIf="messageInput?.errors?.['required']" i18n="Validation message for required message field">

@@ -1,6 +1,6 @@
 h4 {
   font-family: 'Overpass';
-  font-size: 36px;
+  font-size: 56px;
   font-weight: 400;
 }
 .section-portfolio{
@@ -32,21 +32,21 @@ h4 {
       flex-direction: row-reverse;
     }
 
-    .section-image,
-    .section-text {
-      width: 45%;
-    }
-
     .section-image img {
       width: 100%;
       border-radius: 8px;
+
     }
 
     .section-text {
+      width: 45%;
       text-align: left;
-      font-size: 34px;
+      font-size: 42px;
       line-height: 1.6;
       margin: 0 20px;
+      @media (max-width: 469px) {
+        display: none;
+      }
 
       h1 {
         font-size: 28px;

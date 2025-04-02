@@ -81,7 +81,7 @@ ngAfterViewInit(): void {
         }
       });
     },
-    { threshold: 0.2 } // Animation startet, wenn 20% des Bildes sichtbar sind
+    { threshold: 0.2 }
   );
 
   images.forEach((img) => observer.observe(img));
