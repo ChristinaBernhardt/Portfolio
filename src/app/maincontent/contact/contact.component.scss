@@ -1,45 +1,16 @@
 .contact-container {
   width: 100vw;
-font-size: 2rem !important;
-  border: 5px solid white;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    text-align: center;
-    background-color: #000;
-    color: #fff;
+  font-size: 2rem !important;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  background-color: #000;
+  color: #fff;
     @media screen and (max-width: 468px){
       width: 100vw;
     }
 }
-
-.back-to-top-arrow {
-  position: fixed;
-  bottom: 100px;
-  right: 10vw;
-  width: 100px;
-  height: 90px;
-  margin-left: 60px;
-  color: red;
-  background-color: black;
-  transition: height 1s ease-out;
-  z-index: 1000;
-  opacity: 0;
-  transform: scaleY(0);
-  cursor: pointer;
-  pointer-events: none;
-
-  &.animate {
-    transform: scaleY(2);
-    opacity: 1;
-    pointer-events: auto;
-  }
-
-  @media (max-width: 767px) {
-    display: none;
-  }
-}
-
 
 h2 {
   text-align: start;
@@ -116,7 +87,6 @@ h3 {
     margin-right: 0.5rem;
   }
 
-
 .dialog {
   position: fixed;
   top: 0;
@@ -145,8 +115,7 @@ h3 {
   position: relative;
   clip-path: polygon(0 0, 100% 20%, 100% 100%, 0 100%);
   text-align: center;
-  border: 5px solid red;
-padding-top: 50px;
+  padding-top: 150px;
 
 
   p {
