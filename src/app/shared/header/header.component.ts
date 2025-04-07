@@ -52,15 +52,15 @@ export class HeaderComponent{
     }
   }
 
-  selectedLanguage: 'de' | 'en' = 'de';
+  get isGerman(): boolean {
+    return window.location.href.includes('/de');
+  }
 
   openExternalWebsiteDe() {
-    this.selectedLanguage = 'de';
     window.location.href = 'https://www.christina-bernhardt.com/Portfolio/de';
   }
 
   openExternalWebsiteEn() {
-    this.selectedLanguage = 'en';
     window.location.href = 'https://www.christina-bernhardt.com/Portfolio/en-US';
   }
 }

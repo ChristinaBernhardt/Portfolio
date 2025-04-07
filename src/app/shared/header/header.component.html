@@ -4,16 +4,16 @@
          i18n-alt="Scroll to top and redirect" alt="Logo">
 
     <div class="space">
-      <!-- German Flag -->
-      <img *ngIf="selectedLanguage !== 'de'"
+      <!-- German Flag: nur anzeigen, wenn NICHT deutsch -->
+      <img *ngIf="!isGerman"
            class="header-img header-img-flag"
            (click)="openExternalWebsiteDe()"
            src="assets/german_flag.svg"
            i18n-alt="Switch to German"
            alt="German flag">
 
-      <!-- English Flag -->
-      <img *ngIf="selectedLanguage !== 'en'"
+      <!-- English Flag: nur anzeigen, wenn deutsch aktiv ist -->
+      <img *ngIf="isGerman"
            class="header-img header-img-flag"
            (click)="openExternalWebsiteEn()"
            src="assets/english_flag.svg"
