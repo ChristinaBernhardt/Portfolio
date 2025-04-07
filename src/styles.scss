@@ -17,9 +17,7 @@ html {
   scroll-behavior: smooth;
 }
 
-html, body {
-  overflow-x: hidden;
-}
+
 //
 //.container {
 //  padding: 0 20px;
@@ -121,7 +119,7 @@ p {
 
 @media (max-width: 1200px) {
   h1 {
-    font-size: 96px;
+    font-size: 88px;
   }
 
   h2 {
@@ -131,7 +129,7 @@ p {
 
 @media (max-width: 768px) {
   h1 {
-    font-size: 66px;
+    font-size: 60px;
   }
 
   h2 {
@@ -139,13 +137,13 @@ p {
   }
 
   body {
-    font-size: 18px;
+    font-size: 22px;
   }
 }
 
 @media (max-width: 480px) {
   h1 {
-    font-size: 42px;
+    font-size: 36px;
   }
 
   h2 {
