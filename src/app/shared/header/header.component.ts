@@ -17,7 +17,7 @@ import {NgIf, NgOptimizedImage} from "@angular/common";
   templateUrl: './header.component.html',
   styleUrls: ['./header.component.scss']
 })
-export class HeaderComponent implements OnInit {
+export class HeaderComponent{
   /**
    * Reference to the global `window` object, used for scrolling actions.
    * @private
@@ -52,12 +52,7 @@ export class HeaderComponent implements OnInit {
     }
   }
 
-  selectedLanguage: 'de' | 'en' | null = null;
-
-  ngOnInit() {
-    const lang = navigator.language;
-    this.selectedLanguage = lang.startsWith('de') ? 'de' : 'en';
-  }
+  selectedLanguage: 'de' | 'en' = 'de';
 
   openExternalWebsiteDe() {
     this.selectedLanguage = 'de';
