@@ -1,5 +1,4 @@
 @import "./style/fonts.scss";
-@import "./style/variables.scss";
 
 app-root {
   min-height: 100vh;
@@ -30,7 +29,7 @@ html {
 //  }
 //}
 
-.text {
+.text{
   font-family: 'Overpass';
   font-size: 22px;
   font-weight: 400;
