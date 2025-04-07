@@ -1,6 +1,5 @@
 .contact-container {
   width: 100vw;
-  font-size: 2rem !important;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -18,26 +17,22 @@ h2 {
 }
 
 h3 {
-  font-size: 2rem;
   margin-bottom: 1rem;
   color: #00d1b2;
 }
 
 .error-message {
   color: red;
-  font-size: 2rem;
   margin-top: 5px;
 }
 
   h1 {
-    font-size: 3rem;
     font-weight: bold;
   }
 
 
   p {
     margin-bottom: 2rem;
-    font-size: 1.2rem;
   }
 
   .form-group {
