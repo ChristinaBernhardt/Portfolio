@@ -46,13 +46,13 @@ h3 {
     .form-control {
       width: 100%;
       padding: 0.75rem;
-      font-size: 1rem;
+      font-size: 16px;
       font-family: "Overpass";
       border: none;
       border-bottom: 2px solid #fff;
       background-color: transparent;
       color: #fff;
-      outline: none;
+      //outline: none;
 
       &::placeholder {
         color: #aaa;

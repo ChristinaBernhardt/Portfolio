@@ -17,7 +17,6 @@
             minlength="5"
             class="form-control"
             i18n-placeholder="Enter your name"
-            style="font-size: 3rem"
           />
           <div *ngIf="nameInput?.invalid && nameInput?.touched" class="error-message">
     <span *ngIf="nameInput?.errors?.['required']" i18n="Validation message for required name field">
@@ -40,8 +39,7 @@
             class="form-control"
             i18n-placeholder="Enter your email"
             pattern="[a-zA-Z0-9._%+\-]+@[a-zA-Z0-9.\-]+\.[a-zA-Z]{2,}"
-            style="font-size: 3rem"
-          />
+                      />
           <div *ngIf="emailInput?.invalid && emailInput?.touched" class="error-message">
   <span i18n="Validation message for invalid email input">
     Please enter a valid email address.
@@ -59,7 +57,7 @@
     minlength="5"
     class="form-control"
     i18n-placeholder="Enter your message"
-    style="font-size: 2.7rem"
+
   ></textarea>
           <div *ngIf="messageInput?.invalid && messageInput?.touched" class="error-message">
     <span *ngIf="messageInput?.errors?.['required']" i18n="Validation message for required message field">
