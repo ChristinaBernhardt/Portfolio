@@ -26,7 +26,7 @@
       </span>
       <div *ngFor="let section of sectionsData; let i = index" class="section-item"
           >
-        <div class="section-image" [style.width]="section.imgWidth">
+        <div class="section-image" >
           <img class="hidden" [src]="section.imgSrc" [alt]="'Section Image ' + (i + 1)"/>
         </div>
         <div class="section-text">

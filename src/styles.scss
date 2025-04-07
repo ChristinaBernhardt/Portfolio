@@ -8,26 +8,16 @@ app-root {
   width: 100vw;
 }
 
-* {
-  font-family: 'Overpass';
-}
+
 
 html {
   scroll-behavior: smooth;
 }
 
-
-//
-//.container {
-//  padding: 0 20px;
-//}
-
-//@media (max-width: 768px) {
-//  .container {
-//    max-width: 100%;
-//    padding: 0 15px;
-//  }
-//}
+* {
+  font-family: 'Overpass';
+  font-size: 22px;
+}
 
 .text{
   font-family: 'Overpass';
@@ -64,9 +54,7 @@ body {
   }
 }
 
-html {
-  scroll-behavior: smooth;
-}
+
 
 footer {
   color: #FFFCF3;
