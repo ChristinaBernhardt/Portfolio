@@ -6,18 +6,18 @@
  * to the homepage, and a method to toggle the visibility of a burger menu.
  */
 
-import {Component} from '@angular/core';
+import {Component, OnInit} from '@angular/core';
 import {Router, RouterModule} from '@angular/router';
-import {NgOptimizedImage} from "@angular/common";
+import {NgIf, NgOptimizedImage} from "@angular/common";
 
 @Component({
   selector: 'app-header',
   standalone: true,  // This is a standalone component
-  imports: [RouterModule, NgOptimizedImage],  // Imports Angular RouterModule and optimized image handling
+  imports: [RouterModule, NgOptimizedImage, NgIf],  // Imports Angular RouterModule and optimized image handling
   templateUrl: './header.component.html',
   styleUrls: ['./header.component.scss']
 })
-export class HeaderComponent {
+export class HeaderComponent implements OnInit {
   /**
    * Reference to the global `window` object, used for scrolling actions.
    * @private
@@ -52,11 +52,20 @@ export class HeaderComponent {
     }
   }
 
+  selectedLanguage: 'de' | 'en' | null = null;
+
+  ngOnInit() {
+    const lang = navigator.language;
+    this.selectedLanguage = lang.startsWith('de') ? 'de' : 'en';
+  }
+
   openExternalWebsiteDe() {
+    this.selectedLanguage = 'de';
     window.location.href = 'https://www.christina-bernhardt.com/Portfolio/de';
   }
 
   openExternalWebsiteEn() {
-  window.location.href = 'https://www.christina-bernhardt.com/Portfolio/en-US';
+    this.selectedLanguage = 'en';
+    window.location.href = 'https://www.christina-bernhardt.com/Portfolio/en-US';
   }
 }
