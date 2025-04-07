@@ -21,8 +21,10 @@
   .name {
     color: #00BC8F;
     font-weight: bold;
-    font-size: 56px;
-  }
-}
+    font-size: 48px;
+    @media (max-width: 768px) {
+            font-size: 23px;
+        }
+  }}
 
 
