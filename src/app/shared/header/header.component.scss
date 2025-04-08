@@ -40,7 +40,7 @@ header {
   display: none;
   position: absolute;
   top: 92px;
-  right: calc((100vw - 1440px) / 2);
+  right: calc((98vw - 1440px) / 2);
   width: 300px;
   height: 270px;
   padding-top: 100px;
@@ -102,7 +102,7 @@ header {
 
 @media (max-width: 1168px) {
   .burger-menu-content {
-    width: 100vw;
+    width: 98vw;
     padding: 40px 20px;
   }
 
@@ -121,7 +121,7 @@ header {
     padding: 0 20px;
   }
   .burger-menu-content {
-    width: 100vw;
+    width: 98vw;
     padding: 40px 20px;
   }
 
