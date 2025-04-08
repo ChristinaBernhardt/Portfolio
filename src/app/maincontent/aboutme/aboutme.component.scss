@@ -8,7 +8,13 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  scroll-margin-top: 50px;
+  scroll-margin-top: 150px;
+  @media (max-width: 850px) {
+scroll-margin-top: 100px;
+  }
+  @media (max-width: 450px) {
+    scroll-margin-top: 10px;
+  }
 }
 
 .about-me-2 {
@@ -30,10 +36,10 @@
   display: flex;
   flex-direction: column;
   margin: 0 auto;
-  margin-top: -300px;
-  margin-bottom: -200px;
+
+
   width: 80vw;
-  max-width: 800px;
+  max-width: 400px;
   @media screen and (max-width: 425px) {
     width: 98vw;
   }
@@ -74,7 +80,7 @@
 
   .about-me-img {
     order: 2;
-    margin-top: 0;
+    margin-top: 50px;
     margin-bottom: 0;
   }
 
