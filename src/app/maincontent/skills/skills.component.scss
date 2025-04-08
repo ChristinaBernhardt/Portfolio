@@ -33,13 +33,10 @@ h2 {
   }
 }
 
-
 .skills-container {
   height: 871px;
   margin: 20px auto;
   padding: 10px;
-  //overflow: hidden;
-
 }
 
 
@@ -74,11 +71,11 @@ h2 {
 
 .contact-message {
   text-align: center;
-   font-family: 'Overpass', sans-serif;
+  font-family: 'Overpass', sans-serif;
   font-weight: 400;
 }
 
-@media (max-width: 425px) {
+@media (max-width: 600px) {
   .skills {
     display: flex;
     flex-wrap: wrap;

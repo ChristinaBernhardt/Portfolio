@@ -470,11 +470,11 @@
                 </context-group>
             </trans-unit>
             <trans-unit id="4218173861721406672" datatype="html">
-                <source>Don`t see the skill you need?<x id="START_LINK" ctype="x-a"
+                <source>Don't see the skill you need?<x id="START_LINK" ctype="x-a"
                                                         equiv-text="&lt;a href=&quot;#contact&quot; class=&quot;link&quot;&gt;"/>
                     Contact me,
                     <x id="CLOSE_LINK" ctype="x-a" equiv-text="&lt;/a&gt;"/>
-                    I`m always ready to learn!
+                    I'm always ready to learn!
                 </source>
                 <context-group purpose="location">
                     <context context-type="sourcefile">src/app/maincontent/skills/skills.component.html</context>
