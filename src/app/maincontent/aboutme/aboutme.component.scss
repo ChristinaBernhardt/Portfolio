@@ -5,10 +5,9 @@
   display: flex;
   flex-direction: column;
   height: 950px;
-  display: flex;
   justify-content: center;
   align-items: center;
-  scroll-margin-top: 150px;
+  scroll-margin-top: 100px;
   @media (max-width: 850px) {
 scroll-margin-top: 100px;
   }
