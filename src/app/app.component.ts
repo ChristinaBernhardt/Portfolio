@@ -11,6 +11,7 @@ import { filter } from 'rxjs/operators';
 import { RouterOutlet } from '@angular/router';
 import { HeaderComponent } from './shared/header/header.component';
 import { FooterComponent } from './shared/footer/footer.component';
+import {ContactComponent} from "./maincontent/contact/contact.component";
 
 @Component({
   selector: 'app-root',
@@ -20,7 +21,9 @@ import { FooterComponent } from './shared/footer/footer.component';
   imports: [
     RouterOutlet,  // Enables routing in the application
     HeaderComponent,  // Includes the header component
-    FooterComponent   // Includes the footer component
+    FooterComponent,
+    ContactComponent,
+    // Includes the footer component
   ],
 })
 export class AppComponent {

@@ -1,14 +1,21 @@
 @import "./style/fonts.scss";
 
+html, body {
+  margin: 0;
+  padding: 0;
+}
+
+*, *::before, *::after {
+  box-sizing: border-box;
+}
+
 app-root {
   min-height: 100vh;
   display: flex;
   flex-direction: column;
   justify-content: center;
-  width: 98vw;
+  width: 100%;
 }
-
-
 
 html {
   scroll-behavior: smooth;
@@ -33,19 +40,29 @@ html {
 }
 
 body {
-  margin-left: 0;
-  margin-right: 0;
-  margin-bottom: 0;
+  width: 100%;
+  box-sizing: border-box;
   margin-top: 92px;
   color: black;
   background-color: #FFFCF3;
   font-family: 'Overpass';
   font-size: 22px;
   font-weight: 400;
-  //overflow-y: auto;
-  //overflow-x: hidden;
   min-height: calc(100vh - 92px);
+}
+.layout-wrapper {
+  width: 100%;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 1rem;
+  box-sizing: border-box;
+}
+.content-wrapper {
+  width: 100%;
   max-width: 1440px;
+  margin: 0 auto;
+  padding: 0 60px;
+  box-sizing: border-box;
 }
 
 .hover {
